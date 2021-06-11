@@ -1,0 +1,137 @@
+name: Keep Google Material Icons up-to-date
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0' # https://crontab.guru/every-week
+
+jobs:
+  check-versions:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    name: Check available and processed versions
+    runs-on: ubuntu-latest
+    outputs:
+      available: ${{ steps.mdi.outputs.available }}
+      processed: ${{ steps.package-json.outputs.processed }}
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v2
+
+      - uses: actions/github-script@v4
+        name: Fetch the latest Material Design Icons repo info
+        id: mdi
+        with:
+          script: |-
+            const lastCommitResponse = await github.repos.listCommits({
+              owner: 'google',
+              repo: 'material-design-icons',
+              per_page: 1,
+            });
+
+            const shortHash = lastCommitResponse.data[0].sha.slice(0, 7);
+
+            core.setOutput('available', shortHash);
+
+      - uses: actions/github-script@v4
+        name: Get materialDesignIconsCommit from package.json
+        id: package-json
+        with:
+          script: |-
+            const fs = require('fs');
+
+            const packageJson = JSON.parse(fs.readFileSync('./package.json'));
+            core.setOutput('processed', packageJson.materialDesignIconsCommit);
+
+  update-google-material-icons:
+    if: ${{ needs.check-versions.outputs.available != needs.check-versions.outputs.processed }}
+    needs: check-versions
+    name: Update Google Material Icons
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v2
+
+      - name: Download & unzip Material Design Icons zipball
+        run: |-
+          curl \
+            --url "https://github.com/google/material-design-icons/archive/refs/heads/master.zip" \
+            --location \
+            --header 'Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+            --header 'Connection: close' \
+            --output /tmp/material-design-icons.zip \
+            --verbose
+
+          # Unpack only src direcrory containing SVGs
+          unzip -q /tmp/material-design-icons.zip 'material-design-icons-master/src/*' -d /tmp
+
+      - uses: actions/github-script@v4
+        name: Update SVGs in project
+        with:
+          script: |-
+            const path = require('path');
+
+            const safeMv = async (from, to) => {
+              try {
+                await io.mv(from, to, { force: true });
+              } catch (e) {
+                if (e.code !== 'ENOENT') {
+                  throw e;
+                }
+              }
+            };
+
+            const ROOT_DIR = '/tmp/material-design-icons-master/src/*/*/';
+            const variationNameMapping = {
+              materialicons: 'baseline',
+              materialiconsoutlined: 'outline',
+              materialiconsround: 'round',
+              materialiconssharp: 'sharp',
+              materialiconstwotone: 'twotone',
+            };
+
+            const globber = await glob.create(ROOT_DIR, { implicitDescendants: false });
+
+            for await (const dir of globber.globGenerator()) {
+              const iconName = path.basename(dir);
+
+              for (const [src, dst] of Object.entries(variationNameMapping)) {
+                await safeMv(
+                  path.resolve(dir, src, '20px.svg'), 
+                  path.resolve('./icons/google', iconName, `${dst}_thin.svg`),
+                );
+                
+                await safeMv(
+                  path.resolve(dir, src, '24px.svg'), 
+                  path.resolve('./icons/google', iconName, `${dst}.svg`),
+                );
+              }
+            }
+
+      - uses: actions/github-script@v4
+        name: Update package.json
+        id: package-json
+        with:
+          last-mdi-commit: ${{ needs.check-versions.outputs.available }}
+          script: |-
+            const fs = require('fs');
+
+            const packageJson = JSON.parse(fs.readFileSync('./package.json'));
+            
+            packageJson.materialDesignIconsCommit = core.getInput('last-mdi-commit');
+
+            let [major, minor, patch] = packageJson.version.split('.');
+            patch = `${Number(patch) + 1}`;
+            packageJson.version = [major, minor, patch].join('.');
+
+            fs.writeFileSync('./package.json', JSON.stringify(packageJson, null, 2));
+
+            core.setOutput('version', packageJson.version);
+      
+      - name: Commit and push if changed
+        run: |-
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add icons package.json
+
+          git commit -m "Bump Material Design Icons to v${{ steps.package-json.outputs.version }}" || exit 0
+          git push --force origin main

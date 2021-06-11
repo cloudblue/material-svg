@@ -1,0 +1,72 @@
+name: Generate exports & Publish NPM package
+
+on:
+  push:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Keep Google Material Icons up-to-date"]
+    types: [completed]
+
+jobs:
+  apply-updates:
+    if: github.ref == 'refs/heads/main'
+    name: Push changes & publish NPM package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v2
+
+      - uses: actions/github-script@v4
+        name: Get version from package.json
+        id: package-json
+        with:
+          script: |-
+            const fs = require('fs');
+
+            const packageJson = JSON.parse(fs.readFileSync('./package.json'));
+            core.setOutput('version', packageJson.version);
+
+      - uses: actions/github-script@v4
+        name: Generate re-exports
+        with:
+          script: |-
+            const path = require('path');
+            const fs = require('fs');
+
+            const ICONS_ROOT = './icons';
+
+            let indexJsContent = '';
+            
+            const globber = await glob.create(
+              `${ICONS_ROOT}/**/*.svg`,
+              { implicitDescendants: false },
+            );
+
+            for await (const file of globber.globGenerator()) {
+              const relativePath = path.relative(ICONS_ROOT, file);
+              const iconName = relativePath
+                .replace(/([\/-_][a-z0-9])/g, group => group[1].toUpperCase())
+                .slice(0, -4);
+
+              indexJsContent += `export { default as ${iconName} } from '${ICONS_ROOT}/${relativePath}';\n`;
+            }
+
+            fs.writeFileSync('./index.js', indexJsContent);
+
+      - name: Commit and push if changed
+        run: |-
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.js package.json
+
+          git commit -m "Generate exports for v${{ steps.package-json.outputs.version }}" || exit 0
+          git push --force origin main
+
+          git tag "${{ steps.package-json.outputs.version }}"
+          git push --force origin "${{ steps.package-json.outputs.version }}"
+      
+      - name: Publish NPM package
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          dry-run: true
