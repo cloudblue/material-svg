@@ -12,7 +12,7 @@ Custom icons from [CloudBlue Connect](https://connect.cloudblue.com/) are locate
 ### Installation
 
 ```bash
-npm install --save @cloudblue/material-svg
+npm install --save @cloudblueconnect/material-svg
 ```
 
 ### Usage
@@ -20,19 +20,19 @@ npm install --save @cloudblue/material-svg
 ```js
 import {
   googleAlarmAddBaseline, // vendorIconNameVariation
-} from '@cloudblue/material-svg';
+} from '@cloudblueconnect/material-svg';
 
 // or icons/vendor/icon_name/variation.svg
-import googleAlarmAddBaseline from '@cloudblue/material-svg/icons/google/alarm_add/baseline.svg';
+import googleAlarmAddBaseline from '@cloudblueconnect/material-svg/icons/google/alarm_add/baseline.svg';
 ```
 
-All files included in `@cloudblue/material-icons` npm package are available over a CDN.
+All files included in `@cloudblueconnect/material-icons` npm package are available over a CDN.
 
 ```html
-<img src="https://unpkg.com/@cloudblue/material-svg@latest/icons/google/alarm_add/baseline.svg" 
+<img src="https://unpkg.com/@cloudblueconnect/material-svg@latest/icons/google/alarm_add/baseline.svg" 
      alt="Add Alarm icon" />
 ```
 
 ## License
 
-`@cloudblue/material-svg` is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+`@cloudblueconnect/material-svg` is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
