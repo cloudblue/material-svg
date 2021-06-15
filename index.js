@@ -1,3 +1,6 @@
+export { default as connectClockAnimated } from './icons/connect/clock/animated.svg';
+export { default as connectLoaderAnimated } from './icons/connect/loader/animated.svg';
+export { default as connectLoopAnimated } from './icons/connect/loop/animated.svg';
 export { default as google1KBaseline } from './icons/google/10k/baseline.svg';
 export { default as google1KOutline } from './icons/google/10k/outline.svg';
 export { default as google1KRound } from './icons/google/10k/round.svg';
