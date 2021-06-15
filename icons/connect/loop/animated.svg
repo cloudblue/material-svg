@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="connect-loop-icon" viewBox="0 0 24 24" width="24" height="24">
+  <path class="connect-loop-icon__circle"
+        fill="currentColor"
+        d="M12 2A10 10 0 0 0 2 12 10 10 0 0 0 12 22 10 10 0 0 0 22 12 10 10 0 0 0 12 2Zm0 4.9c1 0 1.9 0.3 2.7 0.8L13.8 8.6C13.3 8.3 12.6 8.2 12 8.2 9.9 8.2 8.2 9.9 8.2 12H10.1L7.5 14.5 5 12H6.9C6.9 9.2 9.2 6.9 12 6.9ZM16.5 9.5 19 12h-1.9c0 2.8-2.3 5.1-5.1 5.1-1 0-1.9-0.3-2.7-0.8L10.2 15.4c0.5 0.3 1.1 0.4 1.8 0.4 2.1 0 3.8-1.7 3.8-3.8h-1.9z"
+        stroke-width="0.9" />
+  <style>
+    .connect-loop-icon__circle {
+      fill: currentColor;
+
+      animation: connect-loop-icon-animation 2s linear infinite;
+      transform-origin: center;
+    }
+
+    @keyframes connect-loop-icon-animation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(-360deg);
+      }
+    }
+  </style>
+</svg>
