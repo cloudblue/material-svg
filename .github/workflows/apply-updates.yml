@@ -45,7 +45,7 @@ jobs:
             for await (const file of globber.globGenerator()) {
               const relativePath = path.relative(ICONS_ROOT, file);
               const iconName = relativePath
-                .replace(/([\/-_][a-z0-9])/g, group => group[1].toUpperCase())
+                .replace(/[\/_-]./g, group => group[1].toUpperCase())
                 .slice(0, -4);
 
               indexJsContent += `export { default as ${iconName} } from '${ICONS_ROOT}/${relativePath}';\n`;
