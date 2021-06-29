@@ -36,19 +36,37 @@ jobs:
             const ICONS_ROOT = './icons';
 
             let indexJsContent = '';
-            
+
+            const exportsContents = {
+              animated: '',
+              baseline: '',
+              outline: '',
+              round: '',
+              sharp: '',
+              twotone: '',
+            };
+
             const globber = await glob.create(
               `${ICONS_ROOT}/**/*.svg`,
               { implicitDescendants: false },
             );
 
             for await (const file of globber.globGenerator()) {
-              const relativePath = path.relative(ICONS_ROOT, file);
-              const iconName = relativePath
+              const relativePath = path.relative(ICONS_ROOT, file)
+
+              const exportName = relativePath
                 .replace(/[\/_-]./g, group => group[1].toUpperCase())
                 .slice(0, -4);
 
-              indexJsContent += `export { default as ${iconName} } from '${ICONS_ROOT}/${relativePath}';\n`;
+              let [,, iconVariation] = relativePath.split('/');
+              iconVariation = iconVariation.replace(/_thin|.svg/g, '');
+
+              exportsContents[iconVariation] += `export { default as ${exportName} } from '${ICONS_ROOT}/${relativePath}';\n`;
+            }
+
+            for (const [variation, contents] of Object.entries(exportsContents)) {
+              indexJsContent += `export * from './${variation}.js';\n`;
+              fs.writeFileSync(`./${variation}.js`, contents);
             }
 
             fs.writeFileSync('./index.js', indexJsContent);
