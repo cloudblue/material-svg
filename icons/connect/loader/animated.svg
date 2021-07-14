@@ -1,10 +1,10 @@
 <svg class="connect-loader-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-  <circle class="connect-loader-icon__circle" cx="12" cy="12" r="8" transform-origin="center" stroke-dasharray="50 100" stroke-dashoffset="-17">
+  <circle class="connect-loader-icon__circle" cx="12" cy="12" r="8" stroke-dasharray="50 100" stroke-dashoffset="-17">
     <animateTransform
       attributeType="xml"
       attributeName="transform"
       type="rotate"
-      from="0 0 0" to="360 0 0" dur="2s"
+      from="0 12 12" to="360 12 12" dur="2s"
       repeatCount="indefinite" />
     <animate attributeName="stroke-dasharray" dur="1.7s" calcMode="spline" repeatCount="indefinite"
         values="0 100; 50 100; 50 100" keyTimes="0; 0.7; 1"
