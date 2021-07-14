@@ -1,36 +1,24 @@
 <svg class="connect-loader-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-  <circle class="connect-loader-icon__circle" cx="12" cy="12" r="8" stroke-dasharray="50 100" stroke-dashoffset="-17"/>
+  <circle class="connect-loader-icon__circle" cx="12" cy="12" r="8" transform-origin="center" stroke-dasharray="50 100" stroke-dashoffset="-17">
+    <animateTransform
+      attributeType="xml"
+      attributeName="transform"
+      type="rotate"
+      from="0 0 0" to="360 0 0" dur="2s"
+      repeatCount="indefinite" />
+    <animate attributeName="stroke-dasharray" dur="1.7s" calcMode="spline" repeatCount="indefinite"
+        values="0 100; 50 100; 50 100" keyTimes="0; 0.7; 1"
+        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" />
+    <animate attributeName="stroke-dashoffset" dur="1.7s" calcMode="spline" repeatCount="indefinite"
+        values="0; -17; -49.9" keyTimes="0; 0.7; 1"
+        keySplines="0.42 0 0.58 1; 0.42 0 0.58 1" />
+  </circle>
   <style>
     .connect-loader-icon__circle {
       fill: none;
       stroke: currentColor;
       stroke-width: 2px;
       stroke-linecap: butt;
-
-      animation: connect-loader-animation-stroke 1.7s ease-in-out infinite,
-                 connect-loader-animation-rotate 2s linear infinite;
-      transform-origin: center;
-    }
-
-    @keyframes connect-loader-animation-rotate {
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-
-    @keyframes connect-loader-animation-stroke {
-      0% {
-        stroke-dasharray: 0 100;
-        stroke-dashoffset: 0;
-      }
-      70% {
-        stroke-dasharray: 50 100;
-        stroke-dashoffset: -17;
-      }
-      100% {
-        stroke-dasharray: 50 100;
-        stroke-dashoffset: -49.9;
-      }
     }
   </style>
 </svg>
