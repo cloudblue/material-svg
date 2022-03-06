@@ -237,6 +237,8 @@ export { default as googleAutoFixNormalOutline } from './icons/google/auto_fix_n
 export { default as googleAutoFixOffOutline } from './icons/google/auto_fix_off/outline.svg';
 export { default as googleAutoGraphOutline } from './icons/google/auto_graph/outline.svg';
 export { default as googleAutoGraphOutlineThin } from './icons/google/auto_graph/outline_thin.svg';
+export { default as googleAutoModeOutline } from './icons/google/auto_mode/outline.svg';
+export { default as googleAutoModeOutlineThin } from './icons/google/auto_mode/outline_thin.svg';
 export { default as googleAutoStoriesOutline } from './icons/google/auto_stories/outline.svg';
 export { default as googleAutofpsSelectOutline } from './icons/google/autofps_select/outline.svg';
 export { default as googleAutorenewOutline } from './icons/google/autorenew/outline.svg';
@@ -300,6 +302,8 @@ export { default as googleBikeScooterOutlineThin } from './icons/google/bike_sco
 export { default as googleBiotechOutline } from './icons/google/biotech/outline.svg';
 export { default as googleBiotechOutlineThin } from './icons/google/biotech/outline_thin.svg';
 export { default as googleBlenderOutline } from './icons/google/blender/outline.svg';
+export { default as googleBlindsClosedOutline } from './icons/google/blinds_closed/outline.svg';
+export { default as googleBlindsClosedOutlineThin } from './icons/google/blinds_closed/outline_thin.svg';
 export { default as googleBlockOutline } from './icons/google/block/outline.svg';
 export { default as googleBloodtypeOutline } from './icons/google/bloodtype/outline.svg';
 export { default as googleBluetoothOutline } from './icons/google/bluetooth/outline.svg';
@@ -597,6 +601,10 @@ export { default as googleCurrencyYenOutline } from './icons/google/currency_yen
 export { default as googleCurrencyYenOutlineThin } from './icons/google/currency_yen/outline_thin.svg';
 export { default as googleCurrencyYuanOutline } from './icons/google/currency_yuan/outline.svg';
 export { default as googleCurrencyYuanOutlineThin } from './icons/google/currency_yuan/outline_thin.svg';
+export { default as googleCurtainsOutline } from './icons/google/curtains/outline.svg';
+export { default as googleCurtainsOutlineThin } from './icons/google/curtains/outline_thin.svg';
+export { default as googleCurtainsClosedOutline } from './icons/google/curtains_closed/outline.svg';
+export { default as googleCurtainsClosedOutlineThin } from './icons/google/curtains_closed/outline_thin.svg';
 export { default as googleCycloneOutline } from './icons/google/cyclone/outline.svg';
 export { default as googleCycloneOutlineThin } from './icons/google/cyclone/outline_thin.svg';
 export { default as googleDangerousOutline } from './icons/google/dangerous/outline.svg';
@@ -779,8 +787,12 @@ export { default as googleElderlyWomanOutline } from './icons/google/elderly_wom
 export { default as googleElderlyWomanOutlineThin } from './icons/google/elderly_woman/outline_thin.svg';
 export { default as googleElectricBikeOutline } from './icons/google/electric_bike/outline.svg';
 export { default as googleElectricBikeOutlineThin } from './icons/google/electric_bike/outline_thin.svg';
+export { default as googleElectricBoltOutline } from './icons/google/electric_bolt/outline.svg';
+export { default as googleElectricBoltOutlineThin } from './icons/google/electric_bolt/outline_thin.svg';
 export { default as googleElectricCarOutline } from './icons/google/electric_car/outline.svg';
 export { default as googleElectricCarOutlineThin } from './icons/google/electric_car/outline_thin.svg';
+export { default as googleElectricMeterOutline } from './icons/google/electric_meter/outline.svg';
+export { default as googleElectricMeterOutlineThin } from './icons/google/electric_meter/outline_thin.svg';
 export { default as googleElectricMopedOutline } from './icons/google/electric_moped/outline.svg';
 export { default as googleElectricMopedOutlineThin } from './icons/google/electric_moped/outline_thin.svg';
 export { default as googleElectricRickshawOutline } from './icons/google/electric_rickshaw/outline.svg';
@@ -815,6 +827,8 @@ export { default as googleEmojiSymbolsOutline } from './icons/google/emoji_symbo
 export { default as googleEmojiSymbolsOutlineThin } from './icons/google/emoji_symbols/outline_thin.svg';
 export { default as googleEmojiTransportationOutline } from './icons/google/emoji_transportation/outline.svg';
 export { default as googleEmojiTransportationOutlineThin } from './icons/google/emoji_transportation/outline_thin.svg';
+export { default as googleEnergySavingsLeafOutline } from './icons/google/energy_savings_leaf/outline.svg';
+export { default as googleEnergySavingsLeafOutlineThin } from './icons/google/energy_savings_leaf/outline_thin.svg';
 export { default as googleEngineeringOutline } from './icons/google/engineering/outline.svg';
 export { default as googleEngineeringOutlineThin } from './icons/google/engineering/outline_thin.svg';
 export { default as googleEnhancedEncryptionOutline } from './icons/google/enhanced_encryption/outline.svg';
@@ -1032,6 +1046,8 @@ export { default as googleGTranslateOutline } from './icons/google/g_translate/o
 export { default as googleGamepadOutline } from './icons/google/gamepad/outline.svg';
 export { default as googleGamesOutline } from './icons/google/games/outline.svg';
 export { default as googleGarageOutline } from './icons/google/garage/outline.svg';
+export { default as googleGasMeterOutline } from './icons/google/gas_meter/outline.svg';
+export { default as googleGasMeterOutlineThin } from './icons/google/gas_meter/outline_thin.svg';
 export { default as googleGavelOutline } from './icons/google/gavel/outline.svg';
 export { default as googleGeneratingTokensOutline } from './icons/google/generating_tokens/outline.svg';
 export { default as googleGeneratingTokensOutlineThin } from './icons/google/generating_tokens/outline_thin.svg';
@@ -1105,6 +1121,8 @@ export { default as googleHearingDisabledOutline } from './icons/google/hearing_
 export { default as googleHearingDisabledOutlineThin } from './icons/google/hearing_disabled/outline_thin.svg';
 export { default as googleHeartBrokenOutline } from './icons/google/heart_broken/outline.svg';
 export { default as googleHeartBrokenOutlineThin } from './icons/google/heart_broken/outline_thin.svg';
+export { default as googleHeatPumpOutline } from './icons/google/heat_pump/outline.svg';
+export { default as googleHeatPumpOutlineThin } from './icons/google/heat_pump/outline_thin.svg';
 export { default as googleHeightOutline } from './icons/google/height/outline.svg';
 export { default as googleHeightOutlineThin } from './icons/google/height/outline_thin.svg';
 export { default as googleHelpOutline } from './icons/google/help/outline.svg';
@@ -1304,6 +1322,8 @@ export { default as googleLightOutline } from './icons/google/light/outline.svg'
 export { default as googleLightModeOutline } from './icons/google/light_mode/outline.svg';
 export { default as googleLightModeOutlineThin } from './icons/google/light_mode/outline_thin.svg';
 export { default as googleLightbulbOutline } from './icons/google/lightbulb/outline.svg';
+export { default as googleLightbulbCircleOutline } from './icons/google/lightbulb_circle/outline.svg';
+export { default as googleLightbulbCircleOutlineThin } from './icons/google/lightbulb_circle/outline_thin.svg';
 export { default as googleLineAxisOutline } from './icons/google/line_axis/outline.svg';
 export { default as googleLineAxisOutlineThin } from './icons/google/line_axis/outline_thin.svg';
 export { default as googleLineStyleOutline } from './icons/google/line_style/outline.svg';
@@ -1383,7 +1403,11 @@ export { default as googleLtePlusMobiledataOutline } from './icons/google/lte_pl
 export { default as googleLuggageOutline } from './icons/google/luggage/outline.svg';
 export { default as googleLunchDiningOutline } from './icons/google/lunch_dining/outline.svg';
 export { default as googleLunchDiningOutlineThin } from './icons/google/lunch_dining/outline_thin.svg';
+export { default as googleLyricsOutline } from './icons/google/lyrics/outline.svg';
+export { default as googleLyricsOutlineThin } from './icons/google/lyrics/outline_thin.svg';
 export { default as googleMailOutline } from './icons/google/mail/outline.svg';
+export { default as googleMailLockOutline } from './icons/google/mail_lock/outline.svg';
+export { default as googleMailLockOutlineThin } from './icons/google/mail_lock/outline_thin.svg';
 export { default as googleMailOutlineOutline } from './icons/google/mail_outline/outline.svg';
 export { default as googleMaleOutline } from './icons/google/male/outline.svg';
 export { default as googleMaleOutlineThin } from './icons/google/male/outline_thin.svg';
@@ -1456,6 +1480,8 @@ export { default as googleModeCommentOutline } from './icons/google/mode_comment
 export { default as googleModeEditOutline } from './icons/google/mode_edit/outline.svg';
 export { default as googleModeEditOutlineOutline } from './icons/google/mode_edit_outline/outline.svg';
 export { default as googleModeEditOutlineOutlineThin } from './icons/google/mode_edit_outline/outline_thin.svg';
+export { default as googleModeFanOffOutline } from './icons/google/mode_fan_off/outline.svg';
+export { default as googleModeFanOffOutlineThin } from './icons/google/mode_fan_off/outline_thin.svg';
 export { default as googleModeNightOutline } from './icons/google/mode_night/outline.svg';
 export { default as googleModeOfTravelOutline } from './icons/google/mode_of_travel/outline.svg';
 export { default as googleModeOfTravelOutlineThin } from './icons/google/mode_of_travel/outline_thin.svg';
@@ -1520,6 +1546,8 @@ export { default as googleNearMeOutline } from './icons/google/near_me/outline.s
 export { default as googleNearMeDisabledOutline } from './icons/google/near_me_disabled/outline.svg';
 export { default as googleNearbyErrorOutline } from './icons/google/nearby_error/outline.svg';
 export { default as googleNearbyOffOutline } from './icons/google/nearby_off/outline.svg';
+export { default as googleNestCamWiredStandOutline } from './icons/google/nest_cam_wired_stand/outline.svg';
+export { default as googleNestCamWiredStandOutlineThin } from './icons/google/nest_cam_wired_stand/outline_thin.svg';
 export { default as googleNetworkCellOutline } from './icons/google/network_cell/outline.svg';
 export { default as googleNetworkCheckOutline } from './icons/google/network_check/outline.svg';
 export { default as googleNetworkLockedOutline } from './icons/google/network_locked/outline.svg';
@@ -1597,6 +1625,10 @@ export { default as googleNumbersOutlineThin } from './icons/google/numbers/outl
 export { default as googleOfflineBoltOutline } from './icons/google/offline_bolt/outline.svg';
 export { default as googleOfflinePinOutline } from './icons/google/offline_pin/outline.svg';
 export { default as googleOfflineShareOutline } from './icons/google/offline_share/outline.svg';
+export { default as googleOilBarrelOutline } from './icons/google/oil_barrel/outline.svg';
+export { default as googleOilBarrelOutlineThin } from './icons/google/oil_barrel/outline_thin.svg';
+export { default as googleOnDeviceTrainingOutline } from './icons/google/on_device_training/outline.svg';
+export { default as googleOnDeviceTrainingOutlineThin } from './icons/google/on_device_training/outline_thin.svg';
 export { default as googleOndemandVideoOutline } from './icons/google/ondemand_video/outline.svg';
 export { default as googleOnlinePredictionOutline } from './icons/google/online_prediction/outline.svg';
 export { default as googleOnlinePredictionOutlineThin } from './icons/google/online_prediction/outline_thin.svg';
@@ -1813,6 +1845,10 @@ export { default as googlePrivacyTipOutlineThin } from './icons/google/privacy_t
 export { default as googlePrivateConnectivityOutline } from './icons/google/private_connectivity/outline.svg';
 export { default as googlePrivateConnectivityOutlineThin } from './icons/google/private_connectivity/outline_thin.svg';
 export { default as googleProductionQuantityLimitsOutline } from './icons/google/production_quantity_limits/outline.svg';
+export { default as googlePropaneOutline } from './icons/google/propane/outline.svg';
+export { default as googlePropaneOutlineThin } from './icons/google/propane/outline_thin.svg';
+export { default as googlePropaneTankOutline } from './icons/google/propane_tank/outline.svg';
+export { default as googlePropaneTankOutlineThin } from './icons/google/propane_tank/outline_thin.svg';
 export { default as googlePsychologyOutline } from './icons/google/psychology/outline.svg';
 export { default as googlePsychologyOutlineThin } from './icons/google/psychology/outline_thin.svg';
 export { default as googlePublicOutline } from './icons/google/public/outline.svg';
@@ -1880,6 +1916,8 @@ export { default as googleRemoveDoneOutline } from './icons/google/remove_done/o
 export { default as googleRemoveFromQueueOutline } from './icons/google/remove_from_queue/outline.svg';
 export { default as googleRemoveModeratorOutline } from './icons/google/remove_moderator/outline.svg';
 export { default as googleRemoveRedEyeOutline } from './icons/google/remove_red_eye/outline.svg';
+export { default as googleRemoveRoadOutline } from './icons/google/remove_road/outline.svg';
+export { default as googleRemoveRoadOutlineThin } from './icons/google/remove_road/outline_thin.svg';
 export { default as googleRemoveShoppingCartOutline } from './icons/google/remove_shopping_cart/outline.svg';
 export { default as googleReorderOutline } from './icons/google/reorder/outline.svg';
 export { default as googleRepeatOutline } from './icons/google/repeat/outline.svg';
@@ -1913,6 +1951,10 @@ export { default as googleRocketOutline } from './icons/google/rocket/outline.sv
 export { default as googleRocketOutlineThin } from './icons/google/rocket/outline_thin.svg';
 export { default as googleRocketLaunchOutline } from './icons/google/rocket_launch/outline.svg';
 export { default as googleRocketLaunchOutlineThin } from './icons/google/rocket_launch/outline_thin.svg';
+export { default as googleRollerShadesOutline } from './icons/google/roller_shades/outline.svg';
+export { default as googleRollerShadesOutlineThin } from './icons/google/roller_shades/outline_thin.svg';
+export { default as googleRollerShadesClosedOutline } from './icons/google/roller_shades_closed/outline.svg';
+export { default as googleRollerShadesClosedOutlineThin } from './icons/google/roller_shades_closed/outline_thin.svg';
 export { default as googleRollerSkatingOutline } from './icons/google/roller_skating/outline.svg';
 export { default as googleRollerSkatingOutlineThin } from './icons/google/roller_skating/outline_thin.svg';
 export { default as googleRoofingOutline } from './icons/google/roofing/outline.svg';
@@ -1982,6 +2024,8 @@ export { default as googleScreenRotationAltOutlineThin } from './icons/google/sc
 export { default as googleScreenSearchDesktopOutline } from './icons/google/screen_search_desktop/outline.svg';
 export { default as googleScreenShareOutline } from './icons/google/screen_share/outline.svg';
 export { default as googleScreenshotOutline } from './icons/google/screenshot/outline.svg';
+export { default as googleScreenshotMonitorOutline } from './icons/google/screenshot_monitor/outline.svg';
+export { default as googleScreenshotMonitorOutlineThin } from './icons/google/screenshot_monitor/outline_thin.svg';
 export { default as googleScubaDivingOutline } from './icons/google/scuba_diving/outline.svg';
 export { default as googleScubaDivingOutlineThin } from './icons/google/scuba_diving/outline_thin.svg';
 export { default as googleSdOutline } from './icons/google/sd/outline.svg';
@@ -2008,6 +2052,8 @@ export { default as googleSendTimeExtensionOutlineThin } from './icons/google/se
 export { default as googleSendToMobileOutline } from './icons/google/send_to_mobile/outline.svg';
 export { default as googleSensorDoorOutline } from './icons/google/sensor_door/outline.svg';
 export { default as googleSensorDoorOutlineThin } from './icons/google/sensor_door/outline_thin.svg';
+export { default as googleSensorOccupiedOutline } from './icons/google/sensor_occupied/outline.svg';
+export { default as googleSensorOccupiedOutlineThin } from './icons/google/sensor_occupied/outline_thin.svg';
 export { default as googleSensorWindowOutline } from './icons/google/sensor_window/outline.svg';
 export { default as googleSensorWindowOutlineThin } from './icons/google/sensor_window/outline_thin.svg';
 export { default as googleSensorsOutline } from './icons/google/sensors/outline.svg';
@@ -2128,6 +2174,8 @@ export { default as googleSnowshoeingOutline } from './icons/google/snowshoeing/
 export { default as googleSnowshoeingOutlineThin } from './icons/google/snowshoeing/outline_thin.svg';
 export { default as googleSoapOutline } from './icons/google/soap/outline.svg';
 export { default as googleSocialDistanceOutline } from './icons/google/social_distance/outline.svg';
+export { default as googleSolarPowerOutline } from './icons/google/solar_power/outline.svg';
+export { default as googleSolarPowerOutlineThin } from './icons/google/solar_power/outline_thin.svg';
 export { default as googleSortOutline } from './icons/google/sort/outline.svg';
 export { default as googleSortByAlphaOutline } from './icons/google/sort_by_alpha/outline.svg';
 export { default as googleSosOutline } from './icons/google/sos/outline.svg';
@@ -2395,6 +2443,8 @@ export { default as googleTokenOutlineThin } from './icons/google/token/outline_
 export { default as googleTollOutline } from './icons/google/toll/outline.svg';
 export { default as googleTonalityOutline } from './icons/google/tonality/outline.svg';
 export { default as googleTopicOutline } from './icons/google/topic/outline.svg';
+export { default as googleTornadoOutline } from './icons/google/tornado/outline.svg';
+export { default as googleTornadoOutlineThin } from './icons/google/tornado/outline_thin.svg';
 export { default as googleTouchAppOutline } from './icons/google/touch_app/outline.svg';
 export { default as googleTourOutline } from './icons/google/tour/outline.svg';
 export { default as googleToysOutline } from './icons/google/toys/outline.svg';
@@ -2474,6 +2524,10 @@ export { default as googleVerticalAlignBottomOutline } from './icons/google/vert
 export { default as googleVerticalAlignCenterOutline } from './icons/google/vertical_align_center/outline.svg';
 export { default as googleVerticalAlignTopOutline } from './icons/google/vertical_align_top/outline.svg';
 export { default as googleVerticalDistributeOutline } from './icons/google/vertical_distribute/outline.svg';
+export { default as googleVerticalShadesOutline } from './icons/google/vertical_shades/outline.svg';
+export { default as googleVerticalShadesOutlineThin } from './icons/google/vertical_shades/outline_thin.svg';
+export { default as googleVerticalShadesClosedOutline } from './icons/google/vertical_shades_closed/outline.svg';
+export { default as googleVerticalShadesClosedOutlineThin } from './icons/google/vertical_shades_closed/outline_thin.svg';
 export { default as googleVerticalSplitOutline } from './icons/google/vertical_split/outline.svg';
 export { default as googleVibrationOutline } from './icons/google/vibration/outline.svg';
 export { default as googleVideoCallOutline } from './icons/google/video_call/outline.svg';
@@ -2612,11 +2666,15 @@ export { default as googleWifiTetheringErrorOutline } from './icons/google/wifi_
 export { default as googleWifiTetheringErrorOutlineThin } from './icons/google/wifi_tethering_error/outline_thin.svg';
 export { default as googleWifiTetheringErrorRoundedOutline } from './icons/google/wifi_tethering_error_rounded/outline.svg';
 export { default as googleWifiTetheringOffOutline } from './icons/google/wifi_tethering_off/outline.svg';
+export { default as googleWindPowerOutline } from './icons/google/wind_power/outline.svg';
+export { default as googleWindPowerOutlineThin } from './icons/google/wind_power/outline_thin.svg';
 export { default as googleWindowOutline } from './icons/google/window/outline.svg';
 export { default as googleWineBarOutline } from './icons/google/wine_bar/outline.svg';
 export { default as googleWomanOutline } from './icons/google/woman/outline.svg';
 export { default as googleWomanOutlineThin } from './icons/google/woman/outline_thin.svg';
 export { default as googleWorkOutline } from './icons/google/work/outline.svg';
+export { default as googleWorkHistoryOutline } from './icons/google/work_history/outline.svg';
+export { default as googleWorkHistoryOutlineThin } from './icons/google/work_history/outline_thin.svg';
 export { default as googleWorkOffOutline } from './icons/google/work_off/outline.svg';
 export { default as googleWorkOutlineOutline } from './icons/google/work_outline/outline.svg';
 export { default as googleWorkspacePremiumOutline } from './icons/google/workspace_premium/outline.svg';

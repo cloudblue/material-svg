@@ -237,6 +237,8 @@ export { default as googleAutoFixNormalTwotone } from './icons/google/auto_fix_n
 export { default as googleAutoFixOffTwotone } from './icons/google/auto_fix_off/twotone.svg';
 export { default as googleAutoGraphTwotone } from './icons/google/auto_graph/twotone.svg';
 export { default as googleAutoGraphTwotoneThin } from './icons/google/auto_graph/twotone_thin.svg';
+export { default as googleAutoModeTwotone } from './icons/google/auto_mode/twotone.svg';
+export { default as googleAutoModeTwotoneThin } from './icons/google/auto_mode/twotone_thin.svg';
 export { default as googleAutoStoriesTwotone } from './icons/google/auto_stories/twotone.svg';
 export { default as googleAutofpsSelectTwotone } from './icons/google/autofps_select/twotone.svg';
 export { default as googleAutorenewTwotone } from './icons/google/autorenew/twotone.svg';
@@ -312,6 +314,8 @@ export { default as googleBikeScooterTwotoneThin } from './icons/google/bike_sco
 export { default as googleBiotechTwotone } from './icons/google/biotech/twotone.svg';
 export { default as googleBiotechTwotoneThin } from './icons/google/biotech/twotone_thin.svg';
 export { default as googleBlenderTwotone } from './icons/google/blender/twotone.svg';
+export { default as googleBlindsClosedTwotone } from './icons/google/blinds_closed/twotone.svg';
+export { default as googleBlindsClosedTwotoneThin } from './icons/google/blinds_closed/twotone_thin.svg';
 export { default as googleBlockTwotone } from './icons/google/block/twotone.svg';
 export { default as googleBloodtypeTwotone } from './icons/google/bloodtype/twotone.svg';
 export { default as googleBluetoothTwotone } from './icons/google/bluetooth/twotone.svg';
@@ -609,6 +613,10 @@ export { default as googleCurrencyYenTwotone } from './icons/google/currency_yen
 export { default as googleCurrencyYenTwotoneThin } from './icons/google/currency_yen/twotone_thin.svg';
 export { default as googleCurrencyYuanTwotone } from './icons/google/currency_yuan/twotone.svg';
 export { default as googleCurrencyYuanTwotoneThin } from './icons/google/currency_yuan/twotone_thin.svg';
+export { default as googleCurtainsTwotone } from './icons/google/curtains/twotone.svg';
+export { default as googleCurtainsTwotoneThin } from './icons/google/curtains/twotone_thin.svg';
+export { default as googleCurtainsClosedTwotone } from './icons/google/curtains_closed/twotone.svg';
+export { default as googleCurtainsClosedTwotoneThin } from './icons/google/curtains_closed/twotone_thin.svg';
 export { default as googleCycloneTwotone } from './icons/google/cyclone/twotone.svg';
 export { default as googleCycloneTwotoneThin } from './icons/google/cyclone/twotone_thin.svg';
 export { default as googleDangerousTwotone } from './icons/google/dangerous/twotone.svg';
@@ -791,8 +799,12 @@ export { default as googleElderlyWomanTwotone } from './icons/google/elderly_wom
 export { default as googleElderlyWomanTwotoneThin } from './icons/google/elderly_woman/twotone_thin.svg';
 export { default as googleElectricBikeTwotone } from './icons/google/electric_bike/twotone.svg';
 export { default as googleElectricBikeTwotoneThin } from './icons/google/electric_bike/twotone_thin.svg';
+export { default as googleElectricBoltTwotone } from './icons/google/electric_bolt/twotone.svg';
+export { default as googleElectricBoltTwotoneThin } from './icons/google/electric_bolt/twotone_thin.svg';
 export { default as googleElectricCarTwotone } from './icons/google/electric_car/twotone.svg';
 export { default as googleElectricCarTwotoneThin } from './icons/google/electric_car/twotone_thin.svg';
+export { default as googleElectricMeterTwotone } from './icons/google/electric_meter/twotone.svg';
+export { default as googleElectricMeterTwotoneThin } from './icons/google/electric_meter/twotone_thin.svg';
 export { default as googleElectricMopedTwotone } from './icons/google/electric_moped/twotone.svg';
 export { default as googleElectricMopedTwotoneThin } from './icons/google/electric_moped/twotone_thin.svg';
 export { default as googleElectricRickshawTwotone } from './icons/google/electric_rickshaw/twotone.svg';
@@ -827,6 +839,8 @@ export { default as googleEmojiSymbolsTwotone } from './icons/google/emoji_symbo
 export { default as googleEmojiSymbolsTwotoneThin } from './icons/google/emoji_symbols/twotone_thin.svg';
 export { default as googleEmojiTransportationTwotone } from './icons/google/emoji_transportation/twotone.svg';
 export { default as googleEmojiTransportationTwotoneThin } from './icons/google/emoji_transportation/twotone_thin.svg';
+export { default as googleEnergySavingsLeafTwotone } from './icons/google/energy_savings_leaf/twotone.svg';
+export { default as googleEnergySavingsLeafTwotoneThin } from './icons/google/energy_savings_leaf/twotone_thin.svg';
 export { default as googleEngineeringTwotone } from './icons/google/engineering/twotone.svg';
 export { default as googleEngineeringTwotoneThin } from './icons/google/engineering/twotone_thin.svg';
 export { default as googleEnhancedEncryptionTwotone } from './icons/google/enhanced_encryption/twotone.svg';
@@ -1044,6 +1058,8 @@ export { default as googleGTranslateTwotone } from './icons/google/g_translate/t
 export { default as googleGamepadTwotone } from './icons/google/gamepad/twotone.svg';
 export { default as googleGamesTwotone } from './icons/google/games/twotone.svg';
 export { default as googleGarageTwotone } from './icons/google/garage/twotone.svg';
+export { default as googleGasMeterTwotone } from './icons/google/gas_meter/twotone.svg';
+export { default as googleGasMeterTwotoneThin } from './icons/google/gas_meter/twotone_thin.svg';
 export { default as googleGavelTwotone } from './icons/google/gavel/twotone.svg';
 export { default as googleGeneratingTokensTwotone } from './icons/google/generating_tokens/twotone.svg';
 export { default as googleGeneratingTokensTwotoneThin } from './icons/google/generating_tokens/twotone_thin.svg';
@@ -1117,6 +1133,8 @@ export { default as googleHearingDisabledTwotone } from './icons/google/hearing_
 export { default as googleHearingDisabledTwotoneThin } from './icons/google/hearing_disabled/twotone_thin.svg';
 export { default as googleHeartBrokenTwotone } from './icons/google/heart_broken/twotone.svg';
 export { default as googleHeartBrokenTwotoneThin } from './icons/google/heart_broken/twotone_thin.svg';
+export { default as googleHeatPumpTwotone } from './icons/google/heat_pump/twotone.svg';
+export { default as googleHeatPumpTwotoneThin } from './icons/google/heat_pump/twotone_thin.svg';
 export { default as googleHeightTwotone } from './icons/google/height/twotone.svg';
 export { default as googleHeightTwotoneThin } from './icons/google/height/twotone_thin.svg';
 export { default as googleHelpTwotone } from './icons/google/help/twotone.svg';
@@ -1319,6 +1337,8 @@ export { default as googleLightTwotone } from './icons/google/light/twotone.svg'
 export { default as googleLightModeTwotone } from './icons/google/light_mode/twotone.svg';
 export { default as googleLightModeTwotoneThin } from './icons/google/light_mode/twotone_thin.svg';
 export { default as googleLightbulbTwotone } from './icons/google/lightbulb/twotone.svg';
+export { default as googleLightbulbCircleTwotone } from './icons/google/lightbulb_circle/twotone.svg';
+export { default as googleLightbulbCircleTwotoneThin } from './icons/google/lightbulb_circle/twotone_thin.svg';
 export { default as googleLightbulbOutlineTwotone } from './icons/google/lightbulb_outline/twotone.svg';
 export { default as googleLineAxisTwotone } from './icons/google/line_axis/twotone.svg';
 export { default as googleLineAxisTwotoneThin } from './icons/google/line_axis/twotone_thin.svg';
@@ -1400,7 +1420,11 @@ export { default as googleLtePlusMobiledataTwotone } from './icons/google/lte_pl
 export { default as googleLuggageTwotone } from './icons/google/luggage/twotone.svg';
 export { default as googleLunchDiningTwotone } from './icons/google/lunch_dining/twotone.svg';
 export { default as googleLunchDiningTwotoneThin } from './icons/google/lunch_dining/twotone_thin.svg';
+export { default as googleLyricsTwotone } from './icons/google/lyrics/twotone.svg';
+export { default as googleLyricsTwotoneThin } from './icons/google/lyrics/twotone_thin.svg';
 export { default as googleMailTwotone } from './icons/google/mail/twotone.svg';
+export { default as googleMailLockTwotone } from './icons/google/mail_lock/twotone.svg';
+export { default as googleMailLockTwotoneThin } from './icons/google/mail_lock/twotone_thin.svg';
 export { default as googleMailOutlineTwotone } from './icons/google/mail_outline/twotone.svg';
 export { default as googleMaleTwotone } from './icons/google/male/twotone.svg';
 export { default as googleMaleTwotoneThin } from './icons/google/male/twotone_thin.svg';
@@ -1473,6 +1497,8 @@ export { default as googleModeCommentTwotone } from './icons/google/mode_comment
 export { default as googleModeEditTwotone } from './icons/google/mode_edit/twotone.svg';
 export { default as googleModeEditOutlineTwotone } from './icons/google/mode_edit_outline/twotone.svg';
 export { default as googleModeEditOutlineTwotoneThin } from './icons/google/mode_edit_outline/twotone_thin.svg';
+export { default as googleModeFanOffTwotone } from './icons/google/mode_fan_off/twotone.svg';
+export { default as googleModeFanOffTwotoneThin } from './icons/google/mode_fan_off/twotone_thin.svg';
 export { default as googleModeNightTwotone } from './icons/google/mode_night/twotone.svg';
 export { default as googleModeOfTravelTwotone } from './icons/google/mode_of_travel/twotone.svg';
 export { default as googleModeOfTravelTwotoneThin } from './icons/google/mode_of_travel/twotone_thin.svg';
@@ -1537,6 +1563,8 @@ export { default as googleNearMeTwotone } from './icons/google/near_me/twotone.s
 export { default as googleNearMeDisabledTwotone } from './icons/google/near_me_disabled/twotone.svg';
 export { default as googleNearbyErrorTwotone } from './icons/google/nearby_error/twotone.svg';
 export { default as googleNearbyOffTwotone } from './icons/google/nearby_off/twotone.svg';
+export { default as googleNestCamWiredStandTwotone } from './icons/google/nest_cam_wired_stand/twotone.svg';
+export { default as googleNestCamWiredStandTwotoneThin } from './icons/google/nest_cam_wired_stand/twotone_thin.svg';
 export { default as googleNetworkCellTwotone } from './icons/google/network_cell/twotone.svg';
 export { default as googleNetworkCheckTwotone } from './icons/google/network_check/twotone.svg';
 export { default as googleNetworkLockedTwotone } from './icons/google/network_locked/twotone.svg';
@@ -1614,6 +1642,10 @@ export { default as googleNumbersTwotoneThin } from './icons/google/numbers/twot
 export { default as googleOfflineBoltTwotone } from './icons/google/offline_bolt/twotone.svg';
 export { default as googleOfflinePinTwotone } from './icons/google/offline_pin/twotone.svg';
 export { default as googleOfflineShareTwotone } from './icons/google/offline_share/twotone.svg';
+export { default as googleOilBarrelTwotone } from './icons/google/oil_barrel/twotone.svg';
+export { default as googleOilBarrelTwotoneThin } from './icons/google/oil_barrel/twotone_thin.svg';
+export { default as googleOnDeviceTrainingTwotone } from './icons/google/on_device_training/twotone.svg';
+export { default as googleOnDeviceTrainingTwotoneThin } from './icons/google/on_device_training/twotone_thin.svg';
 export { default as googleOndemandVideoTwotone } from './icons/google/ondemand_video/twotone.svg';
 export { default as googleOnlinePredictionTwotone } from './icons/google/online_prediction/twotone.svg';
 export { default as googleOnlinePredictionTwotoneThin } from './icons/google/online_prediction/twotone_thin.svg';
@@ -1830,6 +1862,10 @@ export { default as googlePrivacyTipTwotoneThin } from './icons/google/privacy_t
 export { default as googlePrivateConnectivityTwotone } from './icons/google/private_connectivity/twotone.svg';
 export { default as googlePrivateConnectivityTwotoneThin } from './icons/google/private_connectivity/twotone_thin.svg';
 export { default as googleProductionQuantityLimitsTwotone } from './icons/google/production_quantity_limits/twotone.svg';
+export { default as googlePropaneTwotone } from './icons/google/propane/twotone.svg';
+export { default as googlePropaneTwotoneThin } from './icons/google/propane/twotone_thin.svg';
+export { default as googlePropaneTankTwotone } from './icons/google/propane_tank/twotone.svg';
+export { default as googlePropaneTankTwotoneThin } from './icons/google/propane_tank/twotone_thin.svg';
 export { default as googlePsychologyTwotone } from './icons/google/psychology/twotone.svg';
 export { default as googlePsychologyTwotoneThin } from './icons/google/psychology/twotone_thin.svg';
 export { default as googlePublicTwotone } from './icons/google/public/twotone.svg';
@@ -1897,6 +1933,8 @@ export { default as googleRemoveDoneTwotone } from './icons/google/remove_done/t
 export { default as googleRemoveFromQueueTwotone } from './icons/google/remove_from_queue/twotone.svg';
 export { default as googleRemoveModeratorTwotone } from './icons/google/remove_moderator/twotone.svg';
 export { default as googleRemoveRedEyeTwotone } from './icons/google/remove_red_eye/twotone.svg';
+export { default as googleRemoveRoadTwotone } from './icons/google/remove_road/twotone.svg';
+export { default as googleRemoveRoadTwotoneThin } from './icons/google/remove_road/twotone_thin.svg';
 export { default as googleRemoveShoppingCartTwotone } from './icons/google/remove_shopping_cart/twotone.svg';
 export { default as googleReorderTwotone } from './icons/google/reorder/twotone.svg';
 export { default as googleRepeatTwotone } from './icons/google/repeat/twotone.svg';
@@ -1930,6 +1968,10 @@ export { default as googleRocketTwotone } from './icons/google/rocket/twotone.sv
 export { default as googleRocketTwotoneThin } from './icons/google/rocket/twotone_thin.svg';
 export { default as googleRocketLaunchTwotone } from './icons/google/rocket_launch/twotone.svg';
 export { default as googleRocketLaunchTwotoneThin } from './icons/google/rocket_launch/twotone_thin.svg';
+export { default as googleRollerShadesTwotone } from './icons/google/roller_shades/twotone.svg';
+export { default as googleRollerShadesTwotoneThin } from './icons/google/roller_shades/twotone_thin.svg';
+export { default as googleRollerShadesClosedTwotone } from './icons/google/roller_shades_closed/twotone.svg';
+export { default as googleRollerShadesClosedTwotoneThin } from './icons/google/roller_shades_closed/twotone_thin.svg';
 export { default as googleRollerSkatingTwotone } from './icons/google/roller_skating/twotone.svg';
 export { default as googleRollerSkatingTwotoneThin } from './icons/google/roller_skating/twotone_thin.svg';
 export { default as googleRoofingTwotone } from './icons/google/roofing/twotone.svg';
@@ -1999,6 +2041,8 @@ export { default as googleScreenRotationAltTwotoneThin } from './icons/google/sc
 export { default as googleScreenSearchDesktopTwotone } from './icons/google/screen_search_desktop/twotone.svg';
 export { default as googleScreenShareTwotone } from './icons/google/screen_share/twotone.svg';
 export { default as googleScreenshotTwotone } from './icons/google/screenshot/twotone.svg';
+export { default as googleScreenshotMonitorTwotone } from './icons/google/screenshot_monitor/twotone.svg';
+export { default as googleScreenshotMonitorTwotoneThin } from './icons/google/screenshot_monitor/twotone_thin.svg';
 export { default as googleScubaDivingTwotone } from './icons/google/scuba_diving/twotone.svg';
 export { default as googleScubaDivingTwotoneThin } from './icons/google/scuba_diving/twotone_thin.svg';
 export { default as googleSdTwotone } from './icons/google/sd/twotone.svg';
@@ -2025,6 +2069,8 @@ export { default as googleSendTimeExtensionTwotoneThin } from './icons/google/se
 export { default as googleSendToMobileTwotone } from './icons/google/send_to_mobile/twotone.svg';
 export { default as googleSensorDoorTwotone } from './icons/google/sensor_door/twotone.svg';
 export { default as googleSensorDoorTwotoneThin } from './icons/google/sensor_door/twotone_thin.svg';
+export { default as googleSensorOccupiedTwotone } from './icons/google/sensor_occupied/twotone.svg';
+export { default as googleSensorOccupiedTwotoneThin } from './icons/google/sensor_occupied/twotone_thin.svg';
 export { default as googleSensorWindowTwotone } from './icons/google/sensor_window/twotone.svg';
 export { default as googleSensorWindowTwotoneThin } from './icons/google/sensor_window/twotone_thin.svg';
 export { default as googleSensorsTwotone } from './icons/google/sensors/twotone.svg';
@@ -2169,6 +2215,8 @@ export { default as googleSnowshoeingTwotone } from './icons/google/snowshoeing/
 export { default as googleSnowshoeingTwotoneThin } from './icons/google/snowshoeing/twotone_thin.svg';
 export { default as googleSoapTwotone } from './icons/google/soap/twotone.svg';
 export { default as googleSocialDistanceTwotone } from './icons/google/social_distance/twotone.svg';
+export { default as googleSolarPowerTwotone } from './icons/google/solar_power/twotone.svg';
+export { default as googleSolarPowerTwotoneThin } from './icons/google/solar_power/twotone_thin.svg';
 export { default as googleSortTwotone } from './icons/google/sort/twotone.svg';
 export { default as googleSortByAlphaTwotone } from './icons/google/sort_by_alpha/twotone.svg';
 export { default as googleSosTwotone } from './icons/google/sos/twotone.svg';
@@ -2436,6 +2484,8 @@ export { default as googleTokenTwotoneThin } from './icons/google/token/twotone_
 export { default as googleTollTwotone } from './icons/google/toll/twotone.svg';
 export { default as googleTonalityTwotone } from './icons/google/tonality/twotone.svg';
 export { default as googleTopicTwotone } from './icons/google/topic/twotone.svg';
+export { default as googleTornadoTwotone } from './icons/google/tornado/twotone.svg';
+export { default as googleTornadoTwotoneThin } from './icons/google/tornado/twotone_thin.svg';
 export { default as googleTouchAppTwotone } from './icons/google/touch_app/twotone.svg';
 export { default as googleTourTwotone } from './icons/google/tour/twotone.svg';
 export { default as googleToysTwotone } from './icons/google/toys/twotone.svg';
@@ -2515,6 +2565,10 @@ export { default as googleVerticalAlignBottomTwotone } from './icons/google/vert
 export { default as googleVerticalAlignCenterTwotone } from './icons/google/vertical_align_center/twotone.svg';
 export { default as googleVerticalAlignTopTwotone } from './icons/google/vertical_align_top/twotone.svg';
 export { default as googleVerticalDistributeTwotone } from './icons/google/vertical_distribute/twotone.svg';
+export { default as googleVerticalShadesTwotone } from './icons/google/vertical_shades/twotone.svg';
+export { default as googleVerticalShadesTwotoneThin } from './icons/google/vertical_shades/twotone_thin.svg';
+export { default as googleVerticalShadesClosedTwotone } from './icons/google/vertical_shades_closed/twotone.svg';
+export { default as googleVerticalShadesClosedTwotoneThin } from './icons/google/vertical_shades_closed/twotone_thin.svg';
 export { default as googleVerticalSplitTwotone } from './icons/google/vertical_split/twotone.svg';
 export { default as googleVibrationTwotone } from './icons/google/vibration/twotone.svg';
 export { default as googleVideoCallTwotone } from './icons/google/video_call/twotone.svg';
@@ -2655,11 +2709,15 @@ export { default as googleWifiTetheringErrorTwotone } from './icons/google/wifi_
 export { default as googleWifiTetheringErrorTwotoneThin } from './icons/google/wifi_tethering_error/twotone_thin.svg';
 export { default as googleWifiTetheringErrorRoundedTwotone } from './icons/google/wifi_tethering_error_rounded/twotone.svg';
 export { default as googleWifiTetheringOffTwotone } from './icons/google/wifi_tethering_off/twotone.svg';
+export { default as googleWindPowerTwotone } from './icons/google/wind_power/twotone.svg';
+export { default as googleWindPowerTwotoneThin } from './icons/google/wind_power/twotone_thin.svg';
 export { default as googleWindowTwotone } from './icons/google/window/twotone.svg';
 export { default as googleWineBarTwotone } from './icons/google/wine_bar/twotone.svg';
 export { default as googleWomanTwotone } from './icons/google/woman/twotone.svg';
 export { default as googleWomanTwotoneThin } from './icons/google/woman/twotone_thin.svg';
 export { default as googleWorkTwotone } from './icons/google/work/twotone.svg';
+export { default as googleWorkHistoryTwotone } from './icons/google/work_history/twotone.svg';
+export { default as googleWorkHistoryTwotoneThin } from './icons/google/work_history/twotone_thin.svg';
 export { default as googleWorkOffTwotone } from './icons/google/work_off/twotone.svg';
 export { default as googleWorkOutlineTwotone } from './icons/google/work_outline/twotone.svg';
 export { default as googleWorkspacePremiumTwotone } from './icons/google/workspace_premium/twotone.svg';
