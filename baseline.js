@@ -9,6 +9,8 @@ export { default as google14mpBaseline } from './icons/google/14mp/baseline.svg'
 export { default as google15mpBaseline } from './icons/google/15mp/baseline.svg';
 export { default as google16mpBaseline } from './icons/google/16mp/baseline.svg';
 export { default as google17mpBaseline } from './icons/google/17mp/baseline.svg';
+export { default as google18UpRatingBaseline } from './icons/google/18_up_rating/baseline.svg';
+export { default as google18UpRatingBaselineThin } from './icons/google/18_up_rating/baseline_thin.svg';
 export { default as google18mpBaseline } from './icons/google/18mp/baseline.svg';
 export { default as google19mpBaseline } from './icons/google/19mp/baseline.svg';
 export { default as google1kBaseline } from './icons/google/1k/baseline.svg';
@@ -304,6 +306,8 @@ export { default as googleBikeScooterBaselineThin } from './icons/google/bike_sc
 export { default as googleBiotechBaseline } from './icons/google/biotech/baseline.svg';
 export { default as googleBiotechBaselineThin } from './icons/google/biotech/baseline_thin.svg';
 export { default as googleBlenderBaseline } from './icons/google/blender/baseline.svg';
+export { default as googleBlindsBaseline } from './icons/google/blinds/baseline.svg';
+export { default as googleBlindsBaselineThin } from './icons/google/blinds/baseline_thin.svg';
 export { default as googleBlindsClosedBaseline } from './icons/google/blinds_closed/baseline.svg';
 export { default as googleBlindsClosedBaselineThin } from './icons/google/blinds_closed/baseline_thin.svg';
 export { default as googleBlockBaseline } from './icons/google/block/baseline.svg';
@@ -359,6 +363,10 @@ export { default as googleBrightnessAutoBaseline } from './icons/google/brightne
 export { default as googleBrightnessHighBaseline } from './icons/google/brightness_high/baseline.svg';
 export { default as googleBrightnessLowBaseline } from './icons/google/brightness_low/baseline.svg';
 export { default as googleBrightnessMediumBaseline } from './icons/google/brightness_medium/baseline.svg';
+export { default as googleBroadcastOnHomeBaseline } from './icons/google/broadcast_on_home/baseline.svg';
+export { default as googleBroadcastOnHomeBaselineThin } from './icons/google/broadcast_on_home/baseline_thin.svg';
+export { default as googleBroadcastOnPersonalBaseline } from './icons/google/broadcast_on_personal/baseline.svg';
+export { default as googleBroadcastOnPersonalBaselineThin } from './icons/google/broadcast_on_personal/baseline_thin.svg';
 export { default as googleBrokenImageBaseline } from './icons/google/broken_image/baseline.svg';
 export { default as googleBrowseGalleryBaseline } from './icons/google/browse_gallery/baseline.svg';
 export { default as googleBrowseGalleryBaselineThin } from './icons/google/browse_gallery/baseline_thin.svg';
@@ -654,6 +662,8 @@ export { default as googleDeselectBaseline } from './icons/google/deselect/basel
 export { default as googleDeselectBaselineThin } from './icons/google/deselect/baseline_thin.svg';
 export { default as googleDesignServicesBaseline } from './icons/google/design_services/baseline.svg';
 export { default as googleDesignServicesBaselineThin } from './icons/google/design_services/baseline_thin.svg';
+export { default as googleDeskBaseline } from './icons/google/desk/baseline.svg';
+export { default as googleDeskBaselineThin } from './icons/google/desk/baseline_thin.svg';
 export { default as googleDesktopAccessDisabledBaseline } from './icons/google/desktop_access_disabled/baseline.svg';
 export { default as googleDesktopMacBaseline } from './icons/google/desktop_mac/baseline.svg';
 export { default as googleDesktopWindowsBaseline } from './icons/google/desktop_windows/baseline.svg';
@@ -1015,6 +1025,7 @@ export { default as googleFormatColorFillBaseline } from './icons/google/format_
 export { default as googleFormatColorFillBaselineThin } from './icons/google/format_color_fill/baseline_thin.svg';
 export { default as googleFormatColorResetBaseline } from './icons/google/format_color_reset/baseline.svg';
 export { default as googleFormatColorTextBaseline } from './icons/google/format_color_text/baseline.svg';
+export { default as googleFormatColorTextBaselineThin } from './icons/google/format_color_text/baseline_thin.svg';
 export { default as googleFormatIndentDecreaseBaseline } from './icons/google/format_indent_decrease/baseline.svg';
 export { default as googleFormatIndentIncreaseBaseline } from './icons/google/format_indent_increase/baseline.svg';
 export { default as googleFormatItalicBaseline } from './icons/google/format_italic/baseline.svg';
@@ -1396,6 +1407,8 @@ export { default as googleLockClockBaseline } from './icons/google/lock_clock/ba
 export { default as googleLockClockBaselineThin } from './icons/google/lock_clock/baseline_thin.svg';
 export { default as googleLockOpenBaseline } from './icons/google/lock_open/baseline.svg';
 export { default as googleLockOutlineBaseline } from './icons/google/lock_outline/baseline.svg';
+export { default as googleLockPersonBaseline } from './icons/google/lock_person/baseline.svg';
+export { default as googleLockPersonBaselineThin } from './icons/google/lock_person/baseline_thin.svg';
 export { default as googleLockResetBaseline } from './icons/google/lock_reset/baseline.svg';
 export { default as googleLockResetBaselineThin } from './icons/google/lock_reset/baseline_thin.svg';
 export { default as googleLoginBaseline } from './icons/google/login/baseline.svg';
@@ -1593,6 +1606,8 @@ export { default as googleNightlightRoundBaseline } from './icons/google/nightli
 export { default as googleNightsStayBaseline } from './icons/google/nights_stay/baseline.svg';
 export { default as googleNightsStayBaselineThin } from './icons/google/nights_stay/baseline_thin.svg';
 export { default as googleNoAccountsBaseline } from './icons/google/no_accounts/baseline.svg';
+export { default as googleNoAdultContentBaseline } from './icons/google/no_adult_content/baseline.svg';
+export { default as googleNoAdultContentBaselineThin } from './icons/google/no_adult_content/baseline_thin.svg';
 export { default as googleNoBackpackBaseline } from './icons/google/no_backpack/baseline.svg';
 export { default as googleNoCellBaseline } from './icons/google/no_cell/baseline.svg';
 export { default as googleNoCrashBaseline } from './icons/google/no_crash/baseline.svg';
@@ -2629,6 +2644,8 @@ export { default as googleVpnKeyOffBaseline } from './icons/google/vpn_key_off/b
 export { default as googleVpnKeyOffBaselineThin } from './icons/google/vpn_key_off/baseline_thin.svg';
 export { default as googleVpnLockBaseline } from './icons/google/vpn_lock/baseline.svg';
 export { default as googleVrpanoBaseline } from './icons/google/vrpano/baseline.svg';
+export { default as googleWalletBaseline } from './icons/google/wallet/baseline.svg';
+export { default as googleWalletBaselineThin } from './icons/google/wallet/baseline_thin.svg';
 export { default as googleWallpaperBaseline } from './icons/google/wallpaper/baseline.svg';
 export { default as googleWarehouseBaseline } from './icons/google/warehouse/baseline.svg';
 export { default as googleWarehouseBaselineThin } from './icons/google/warehouse/baseline_thin.svg';
@@ -2673,6 +2690,12 @@ export { default as googleWhatshotBaseline } from './icons/google/whatshot/basel
 export { default as googleWheelchairPickupBaseline } from './icons/google/wheelchair_pickup/baseline.svg';
 export { default as googleWhereToVoteBaseline } from './icons/google/where_to_vote/baseline.svg';
 export { default as googleWidgetsBaseline } from './icons/google/widgets/baseline.svg';
+export { default as googleWidthFullBaseline } from './icons/google/width_full/baseline.svg';
+export { default as googleWidthFullBaselineThin } from './icons/google/width_full/baseline_thin.svg';
+export { default as googleWidthNormalBaseline } from './icons/google/width_normal/baseline.svg';
+export { default as googleWidthNormalBaselineThin } from './icons/google/width_normal/baseline_thin.svg';
+export { default as googleWidthWideBaseline } from './icons/google/width_wide/baseline.svg';
+export { default as googleWidthWideBaselineThin } from './icons/google/width_wide/baseline_thin.svg';
 export { default as googleWifiBaseline } from './icons/google/wifi/baseline.svg';
 export { default as googleWifi1BarBaseline } from './icons/google/wifi_1_bar/baseline.svg';
 export { default as googleWifi1BarBaselineThin } from './icons/google/wifi_1_bar/baseline_thin.svg';

@@ -9,6 +9,8 @@ export { default as google14mpSharp } from './icons/google/14mp/sharp.svg';
 export { default as google15mpSharp } from './icons/google/15mp/sharp.svg';
 export { default as google16mpSharp } from './icons/google/16mp/sharp.svg';
 export { default as google17mpSharp } from './icons/google/17mp/sharp.svg';
+export { default as google18UpRatingSharp } from './icons/google/18_up_rating/sharp.svg';
+export { default as google18UpRatingSharpThin } from './icons/google/18_up_rating/sharp_thin.svg';
 export { default as google18mpSharp } from './icons/google/18mp/sharp.svg';
 export { default as google19mpSharp } from './icons/google/19mp/sharp.svg';
 export { default as google1kSharp } from './icons/google/1k/sharp.svg';
@@ -302,6 +304,8 @@ export { default as googleBikeScooterSharpThin } from './icons/google/bike_scoot
 export { default as googleBiotechSharp } from './icons/google/biotech/sharp.svg';
 export { default as googleBiotechSharpThin } from './icons/google/biotech/sharp_thin.svg';
 export { default as googleBlenderSharp } from './icons/google/blender/sharp.svg';
+export { default as googleBlindsSharp } from './icons/google/blinds/sharp.svg';
+export { default as googleBlindsSharpThin } from './icons/google/blinds/sharp_thin.svg';
 export { default as googleBlindsClosedSharp } from './icons/google/blinds_closed/sharp.svg';
 export { default as googleBlindsClosedSharpThin } from './icons/google/blinds_closed/sharp_thin.svg';
 export { default as googleBlockSharp } from './icons/google/block/sharp.svg';
@@ -355,6 +359,10 @@ export { default as googleBrightnessAutoSharp } from './icons/google/brightness_
 export { default as googleBrightnessHighSharp } from './icons/google/brightness_high/sharp.svg';
 export { default as googleBrightnessLowSharp } from './icons/google/brightness_low/sharp.svg';
 export { default as googleBrightnessMediumSharp } from './icons/google/brightness_medium/sharp.svg';
+export { default as googleBroadcastOnHomeSharp } from './icons/google/broadcast_on_home/sharp.svg';
+export { default as googleBroadcastOnHomeSharpThin } from './icons/google/broadcast_on_home/sharp_thin.svg';
+export { default as googleBroadcastOnPersonalSharp } from './icons/google/broadcast_on_personal/sharp.svg';
+export { default as googleBroadcastOnPersonalSharpThin } from './icons/google/broadcast_on_personal/sharp_thin.svg';
 export { default as googleBrokenImageSharp } from './icons/google/broken_image/sharp.svg';
 export { default as googleBrowseGallerySharp } from './icons/google/browse_gallery/sharp.svg';
 export { default as googleBrowseGallerySharpThin } from './icons/google/browse_gallery/sharp_thin.svg';
@@ -648,6 +656,8 @@ export { default as googleDeselectSharp } from './icons/google/deselect/sharp.sv
 export { default as googleDeselectSharpThin } from './icons/google/deselect/sharp_thin.svg';
 export { default as googleDesignServicesSharp } from './icons/google/design_services/sharp.svg';
 export { default as googleDesignServicesSharpThin } from './icons/google/design_services/sharp_thin.svg';
+export { default as googleDeskSharp } from './icons/google/desk/sharp.svg';
+export { default as googleDeskSharpThin } from './icons/google/desk/sharp_thin.svg';
 export { default as googleDesktopAccessDisabledSharp } from './icons/google/desktop_access_disabled/sharp.svg';
 export { default as googleDesktopMacSharp } from './icons/google/desktop_mac/sharp.svg';
 export { default as googleDesktopWindowsSharp } from './icons/google/desktop_windows/sharp.svg';
@@ -1006,6 +1016,7 @@ export { default as googleFormatColorFillSharp } from './icons/google/format_col
 export { default as googleFormatColorFillSharpThin } from './icons/google/format_color_fill/sharp_thin.svg';
 export { default as googleFormatColorResetSharp } from './icons/google/format_color_reset/sharp.svg';
 export { default as googleFormatColorTextSharp } from './icons/google/format_color_text/sharp.svg';
+export { default as googleFormatColorTextSharpThin } from './icons/google/format_color_text/sharp_thin.svg';
 export { default as googleFormatIndentDecreaseSharp } from './icons/google/format_indent_decrease/sharp.svg';
 export { default as googleFormatIndentIncreaseSharp } from './icons/google/format_indent_increase/sharp.svg';
 export { default as googleFormatItalicSharp } from './icons/google/format_italic/sharp.svg';
@@ -1385,6 +1396,8 @@ export { default as googleLockClockSharp } from './icons/google/lock_clock/sharp
 export { default as googleLockClockSharpThin } from './icons/google/lock_clock/sharp_thin.svg';
 export { default as googleLockOpenSharp } from './icons/google/lock_open/sharp.svg';
 export { default as googleLockOutlineSharp } from './icons/google/lock_outline/sharp.svg';
+export { default as googleLockPersonSharp } from './icons/google/lock_person/sharp.svg';
+export { default as googleLockPersonSharpThin } from './icons/google/lock_person/sharp_thin.svg';
 export { default as googleLockResetSharp } from './icons/google/lock_reset/sharp.svg';
 export { default as googleLockResetSharpThin } from './icons/google/lock_reset/sharp_thin.svg';
 export { default as googleLoginSharp } from './icons/google/login/sharp.svg';
@@ -1582,6 +1595,8 @@ export { default as googleNightlightRoundSharp } from './icons/google/nightlight
 export { default as googleNightsStaySharp } from './icons/google/nights_stay/sharp.svg';
 export { default as googleNightsStaySharpThin } from './icons/google/nights_stay/sharp_thin.svg';
 export { default as googleNoAccountsSharp } from './icons/google/no_accounts/sharp.svg';
+export { default as googleNoAdultContentSharp } from './icons/google/no_adult_content/sharp.svg';
+export { default as googleNoAdultContentSharpThin } from './icons/google/no_adult_content/sharp_thin.svg';
 export { default as googleNoBackpackSharp } from './icons/google/no_backpack/sharp.svg';
 export { default as googleNoCellSharp } from './icons/google/no_cell/sharp.svg';
 export { default as googleNoCrashSharp } from './icons/google/no_crash/sharp.svg';
@@ -2606,6 +2621,8 @@ export { default as googleVpnKeyOffSharp } from './icons/google/vpn_key_off/shar
 export { default as googleVpnKeyOffSharpThin } from './icons/google/vpn_key_off/sharp_thin.svg';
 export { default as googleVpnLockSharp } from './icons/google/vpn_lock/sharp.svg';
 export { default as googleVrpanoSharp } from './icons/google/vrpano/sharp.svg';
+export { default as googleWalletSharp } from './icons/google/wallet/sharp.svg';
+export { default as googleWalletSharpThin } from './icons/google/wallet/sharp_thin.svg';
 export { default as googleWallpaperSharp } from './icons/google/wallpaper/sharp.svg';
 export { default as googleWarehouseSharp } from './icons/google/warehouse/sharp.svg';
 export { default as googleWarehouseSharpThin } from './icons/google/warehouse/sharp_thin.svg';
@@ -2647,6 +2664,12 @@ export { default as googleWhatshotSharp } from './icons/google/whatshot/sharp.sv
 export { default as googleWheelchairPickupSharp } from './icons/google/wheelchair_pickup/sharp.svg';
 export { default as googleWhereToVoteSharp } from './icons/google/where_to_vote/sharp.svg';
 export { default as googleWidgetsSharp } from './icons/google/widgets/sharp.svg';
+export { default as googleWidthFullSharp } from './icons/google/width_full/sharp.svg';
+export { default as googleWidthFullSharpThin } from './icons/google/width_full/sharp_thin.svg';
+export { default as googleWidthNormalSharp } from './icons/google/width_normal/sharp.svg';
+export { default as googleWidthNormalSharpThin } from './icons/google/width_normal/sharp_thin.svg';
+export { default as googleWidthWideSharp } from './icons/google/width_wide/sharp.svg';
+export { default as googleWidthWideSharpThin } from './icons/google/width_wide/sharp_thin.svg';
 export { default as googleWifiSharp } from './icons/google/wifi/sharp.svg';
 export { default as googleWifi1BarSharp } from './icons/google/wifi_1_bar/sharp.svg';
 export { default as googleWifi1BarSharpThin } from './icons/google/wifi_1_bar/sharp_thin.svg';

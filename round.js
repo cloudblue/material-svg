@@ -9,6 +9,8 @@ export { default as google14mpRound } from './icons/google/14mp/round.svg';
 export { default as google15mpRound } from './icons/google/15mp/round.svg';
 export { default as google16mpRound } from './icons/google/16mp/round.svg';
 export { default as google17mpRound } from './icons/google/17mp/round.svg';
+export { default as google18UpRatingRound } from './icons/google/18_up_rating/round.svg';
+export { default as google18UpRatingRoundThin } from './icons/google/18_up_rating/round_thin.svg';
 export { default as google18mpRound } from './icons/google/18mp/round.svg';
 export { default as google19mpRound } from './icons/google/19mp/round.svg';
 export { default as google1kRound } from './icons/google/1k/round.svg';
@@ -302,6 +304,8 @@ export { default as googleBikeScooterRoundThin } from './icons/google/bike_scoot
 export { default as googleBiotechRound } from './icons/google/biotech/round.svg';
 export { default as googleBiotechRoundThin } from './icons/google/biotech/round_thin.svg';
 export { default as googleBlenderRound } from './icons/google/blender/round.svg';
+export { default as googleBlindsRound } from './icons/google/blinds/round.svg';
+export { default as googleBlindsRoundThin } from './icons/google/blinds/round_thin.svg';
 export { default as googleBlindsClosedRound } from './icons/google/blinds_closed/round.svg';
 export { default as googleBlindsClosedRoundThin } from './icons/google/blinds_closed/round_thin.svg';
 export { default as googleBlockRound } from './icons/google/block/round.svg';
@@ -355,6 +359,10 @@ export { default as googleBrightnessAutoRound } from './icons/google/brightness_
 export { default as googleBrightnessHighRound } from './icons/google/brightness_high/round.svg';
 export { default as googleBrightnessLowRound } from './icons/google/brightness_low/round.svg';
 export { default as googleBrightnessMediumRound } from './icons/google/brightness_medium/round.svg';
+export { default as googleBroadcastOnHomeRound } from './icons/google/broadcast_on_home/round.svg';
+export { default as googleBroadcastOnHomeRoundThin } from './icons/google/broadcast_on_home/round_thin.svg';
+export { default as googleBroadcastOnPersonalRound } from './icons/google/broadcast_on_personal/round.svg';
+export { default as googleBroadcastOnPersonalRoundThin } from './icons/google/broadcast_on_personal/round_thin.svg';
 export { default as googleBrokenImageRound } from './icons/google/broken_image/round.svg';
 export { default as googleBrowseGalleryRound } from './icons/google/browse_gallery/round.svg';
 export { default as googleBrowseGalleryRoundThin } from './icons/google/browse_gallery/round_thin.svg';
@@ -648,6 +656,8 @@ export { default as googleDeselectRound } from './icons/google/deselect/round.sv
 export { default as googleDeselectRoundThin } from './icons/google/deselect/round_thin.svg';
 export { default as googleDesignServicesRound } from './icons/google/design_services/round.svg';
 export { default as googleDesignServicesRoundThin } from './icons/google/design_services/round_thin.svg';
+export { default as googleDeskRound } from './icons/google/desk/round.svg';
+export { default as googleDeskRoundThin } from './icons/google/desk/round_thin.svg';
 export { default as googleDesktopAccessDisabledRound } from './icons/google/desktop_access_disabled/round.svg';
 export { default as googleDesktopMacRound } from './icons/google/desktop_mac/round.svg';
 export { default as googleDesktopWindowsRound } from './icons/google/desktop_windows/round.svg';
@@ -1006,6 +1016,7 @@ export { default as googleFormatColorFillRound } from './icons/google/format_col
 export { default as googleFormatColorFillRoundThin } from './icons/google/format_color_fill/round_thin.svg';
 export { default as googleFormatColorResetRound } from './icons/google/format_color_reset/round.svg';
 export { default as googleFormatColorTextRound } from './icons/google/format_color_text/round.svg';
+export { default as googleFormatColorTextRoundThin } from './icons/google/format_color_text/round_thin.svg';
 export { default as googleFormatIndentDecreaseRound } from './icons/google/format_indent_decrease/round.svg';
 export { default as googleFormatIndentIncreaseRound } from './icons/google/format_indent_increase/round.svg';
 export { default as googleFormatItalicRound } from './icons/google/format_italic/round.svg';
@@ -1385,6 +1396,8 @@ export { default as googleLockClockRound } from './icons/google/lock_clock/round
 export { default as googleLockClockRoundThin } from './icons/google/lock_clock/round_thin.svg';
 export { default as googleLockOpenRound } from './icons/google/lock_open/round.svg';
 export { default as googleLockOutlineRound } from './icons/google/lock_outline/round.svg';
+export { default as googleLockPersonRound } from './icons/google/lock_person/round.svg';
+export { default as googleLockPersonRoundThin } from './icons/google/lock_person/round_thin.svg';
 export { default as googleLockResetRound } from './icons/google/lock_reset/round.svg';
 export { default as googleLockResetRoundThin } from './icons/google/lock_reset/round_thin.svg';
 export { default as googleLoginRound } from './icons/google/login/round.svg';
@@ -1582,6 +1595,8 @@ export { default as googleNightlightRoundRound } from './icons/google/nightlight
 export { default as googleNightsStayRound } from './icons/google/nights_stay/round.svg';
 export { default as googleNightsStayRoundThin } from './icons/google/nights_stay/round_thin.svg';
 export { default as googleNoAccountsRound } from './icons/google/no_accounts/round.svg';
+export { default as googleNoAdultContentRound } from './icons/google/no_adult_content/round.svg';
+export { default as googleNoAdultContentRoundThin } from './icons/google/no_adult_content/round_thin.svg';
 export { default as googleNoBackpackRound } from './icons/google/no_backpack/round.svg';
 export { default as googleNoCellRound } from './icons/google/no_cell/round.svg';
 export { default as googleNoCrashRound } from './icons/google/no_crash/round.svg';
@@ -2606,6 +2621,8 @@ export { default as googleVpnKeyOffRound } from './icons/google/vpn_key_off/roun
 export { default as googleVpnKeyOffRoundThin } from './icons/google/vpn_key_off/round_thin.svg';
 export { default as googleVpnLockRound } from './icons/google/vpn_lock/round.svg';
 export { default as googleVrpanoRound } from './icons/google/vrpano/round.svg';
+export { default as googleWalletRound } from './icons/google/wallet/round.svg';
+export { default as googleWalletRoundThin } from './icons/google/wallet/round_thin.svg';
 export { default as googleWallpaperRound } from './icons/google/wallpaper/round.svg';
 export { default as googleWarehouseRound } from './icons/google/warehouse/round.svg';
 export { default as googleWarehouseRoundThin } from './icons/google/warehouse/round_thin.svg';
@@ -2647,6 +2664,12 @@ export { default as googleWhatshotRound } from './icons/google/whatshot/round.sv
 export { default as googleWheelchairPickupRound } from './icons/google/wheelchair_pickup/round.svg';
 export { default as googleWhereToVoteRound } from './icons/google/where_to_vote/round.svg';
 export { default as googleWidgetsRound } from './icons/google/widgets/round.svg';
+export { default as googleWidthFullRound } from './icons/google/width_full/round.svg';
+export { default as googleWidthFullRoundThin } from './icons/google/width_full/round_thin.svg';
+export { default as googleWidthNormalRound } from './icons/google/width_normal/round.svg';
+export { default as googleWidthNormalRoundThin } from './icons/google/width_normal/round_thin.svg';
+export { default as googleWidthWideRound } from './icons/google/width_wide/round.svg';
+export { default as googleWidthWideRoundThin } from './icons/google/width_wide/round_thin.svg';
 export { default as googleWifiRound } from './icons/google/wifi/round.svg';
 export { default as googleWifi1BarRound } from './icons/google/wifi_1_bar/round.svg';
 export { default as googleWifi1BarRoundThin } from './icons/google/wifi_1_bar/round_thin.svg';
