@@ -1,6 +1,6 @@
 {
   "name": "@cloudblueconnect/material-svg",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "Google's Material Design SVG icons",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
     "url": "https://github.com/cloudblue/material-svg/issues"
   },
   "homepage": "https://github.com/cloudblue/material-svg#readme",
-  "materialDesignIconsCommit": "1a878a6",
+  "materialDesignIconsCommit": "8034795",
   "sideEffects": false
 }
