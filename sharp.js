@@ -1017,6 +1017,7 @@ export { default as googleFlipToFrontSharp } from './icons/google/flip_to_front/
 export { default as googleFloodSharp } from './icons/google/flood/sharp.svg';
 export { default as googleFloodSharpThin } from './icons/google/flood/sharp_thin.svg';
 export { default as googleFlourescentSharp } from './icons/google/flourescent/sharp.svg';
+export { default as googleFluorescentSharp } from './icons/google/fluorescent/sharp.svg';
 export { default as googleFlutterDashSharp } from './icons/google/flutter_dash/sharp.svg';
 export { default as googleFlutterDashSharpThin } from './icons/google/flutter_dash/sharp_thin.svg';
 export { default as googleFmdBadSharp } from './icons/google/fmd_bad/sharp.svg';

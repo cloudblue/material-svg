@@ -1024,6 +1024,7 @@ export { default as googleFlipToFrontBaseline } from './icons/google/flip_to_fro
 export { default as googleFloodBaseline } from './icons/google/flood/baseline.svg';
 export { default as googleFloodBaselineThin } from './icons/google/flood/baseline_thin.svg';
 export { default as googleFlourescentBaseline } from './icons/google/flourescent/baseline.svg';
+export { default as googleFluorescentBaseline } from './icons/google/fluorescent/baseline.svg';
 export { default as googleFlutterDashBaseline } from './icons/google/flutter_dash/baseline.svg';
 export { default as googleFlutterDashBaselineThin } from './icons/google/flutter_dash/baseline_thin.svg';
 export { default as googleFmdBadBaseline } from './icons/google/fmd_bad/baseline.svg';

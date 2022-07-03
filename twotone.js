@@ -1029,6 +1029,7 @@ export { default as googleFlipToFrontTwotone } from './icons/google/flip_to_fron
 export { default as googleFloodTwotone } from './icons/google/flood/twotone.svg';
 export { default as googleFloodTwotoneThin } from './icons/google/flood/twotone_thin.svg';
 export { default as googleFlourescentTwotone } from './icons/google/flourescent/twotone.svg';
+export { default as googleFluorescentTwotone } from './icons/google/fluorescent/twotone.svg';
 export { default as googleFlutterDashTwotone } from './icons/google/flutter_dash/twotone.svg';
 export { default as googleFlutterDashTwotoneThin } from './icons/google/flutter_dash/twotone_thin.svg';
 export { default as googleFmdBadTwotone } from './icons/google/fmd_bad/twotone.svg';

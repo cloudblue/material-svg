@@ -1017,6 +1017,7 @@ export { default as googleFlipToFrontOutline } from './icons/google/flip_to_fron
 export { default as googleFloodOutline } from './icons/google/flood/outline.svg';
 export { default as googleFloodOutlineThin } from './icons/google/flood/outline_thin.svg';
 export { default as googleFlourescentOutline } from './icons/google/flourescent/outline.svg';
+export { default as googleFluorescentOutline } from './icons/google/fluorescent/outline.svg';
 export { default as googleFlutterDashOutline } from './icons/google/flutter_dash/outline.svg';
 export { default as googleFlutterDashOutlineThin } from './icons/google/flutter_dash/outline_thin.svg';
 export { default as googleFmdBadOutline } from './icons/google/fmd_bad/outline.svg';

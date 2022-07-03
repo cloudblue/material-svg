@@ -1017,6 +1017,7 @@ export { default as googleFlipToFrontRound } from './icons/google/flip_to_front/
 export { default as googleFloodRound } from './icons/google/flood/round.svg';
 export { default as googleFloodRoundThin } from './icons/google/flood/round_thin.svg';
 export { default as googleFlourescentRound } from './icons/google/flourescent/round.svg';
+export { default as googleFluorescentRound } from './icons/google/fluorescent/round.svg';
 export { default as googleFlutterDashRound } from './icons/google/flutter_dash/round.svg';
 export { default as googleFlutterDashRoundThin } from './icons/google/flutter_dash/round_thin.svg';
 export { default as googleFmdBadRound } from './icons/google/fmd_bad/round.svg';
