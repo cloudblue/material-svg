@@ -2334,6 +2334,7 @@ export { default as googleSquareFootOutlineThin } from './icons/google/square_fo
 export { default as googleSsidChartOutline } from './icons/google/ssid_chart/outline.svg';
 export { default as googleSsidChartOutlineThin } from './icons/google/ssid_chart/outline_thin.svg';
 export { default as googleStackedBarChartOutline } from './icons/google/stacked_bar_chart/outline.svg';
+export { default as googleStackedBarChartOutlineThin } from './icons/google/stacked_bar_chart/outline_thin.svg';
 export { default as googleStackedLineChartOutline } from './icons/google/stacked_line_chart/outline.svg';
 export { default as googleStadiumOutline } from './icons/google/stadium/outline.svg';
 export { default as googleStadiumOutlineThin } from './icons/google/stadium/outline_thin.svg';
@@ -2623,6 +2624,8 @@ export { default as googleVibrationOutline } from './icons/google/vibration/outl
 export { default as googleVideoCallOutline } from './icons/google/video_call/outline.svg';
 export { default as googleVideoCameraBackOutline } from './icons/google/video_camera_back/outline.svg';
 export { default as googleVideoCameraFrontOutline } from './icons/google/video_camera_front/outline.svg';
+export { default as googleVideoChatOutline } from './icons/google/video_chat/outline.svg';
+export { default as googleVideoChatOutlineThin } from './icons/google/video_chat/outline_thin.svg';
 export { default as googleVideoFileOutline } from './icons/google/video_file/outline.svg';
 export { default as googleVideoFileOutlineThin } from './icons/google/video_file/outline_thin.svg';
 export { default as googleVideoLabelOutline } from './icons/google/video_label/outline.svg';
@@ -2644,6 +2647,7 @@ export { default as googleViewCarouselOutlineThin } from './icons/google/view_ca
 export { default as googleViewColumnOutline } from './icons/google/view_column/outline.svg';
 export { default as googleViewColumnOutlineThin } from './icons/google/view_column/outline_thin.svg';
 export { default as googleViewComfyOutline } from './icons/google/view_comfy/outline.svg';
+export { default as googleViewComfyOutlineThin } from './icons/google/view_comfy/outline_thin.svg';
 export { default as googleViewComfyAltOutline } from './icons/google/view_comfy_alt/outline.svg';
 export { default as googleViewComfyAltOutlineThin } from './icons/google/view_comfy_alt/outline_thin.svg';
 export { default as googleViewCompactOutline } from './icons/google/view_compact/outline.svg';

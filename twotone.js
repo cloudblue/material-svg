@@ -2375,6 +2375,7 @@ export { default as googleSquareFootTwotoneThin } from './icons/google/square_fo
 export { default as googleSsidChartTwotone } from './icons/google/ssid_chart/twotone.svg';
 export { default as googleSsidChartTwotoneThin } from './icons/google/ssid_chart/twotone_thin.svg';
 export { default as googleStackedBarChartTwotone } from './icons/google/stacked_bar_chart/twotone.svg';
+export { default as googleStackedBarChartTwotoneThin } from './icons/google/stacked_bar_chart/twotone_thin.svg';
 export { default as googleStackedLineChartTwotone } from './icons/google/stacked_line_chart/twotone.svg';
 export { default as googleStadiumTwotone } from './icons/google/stadium/twotone.svg';
 export { default as googleStadiumTwotoneThin } from './icons/google/stadium/twotone_thin.svg';
@@ -2664,6 +2665,8 @@ export { default as googleVibrationTwotone } from './icons/google/vibration/twot
 export { default as googleVideoCallTwotone } from './icons/google/video_call/twotone.svg';
 export { default as googleVideoCameraBackTwotone } from './icons/google/video_camera_back/twotone.svg';
 export { default as googleVideoCameraFrontTwotone } from './icons/google/video_camera_front/twotone.svg';
+export { default as googleVideoChatTwotone } from './icons/google/video_chat/twotone.svg';
+export { default as googleVideoChatTwotoneThin } from './icons/google/video_chat/twotone_thin.svg';
 export { default as googleVideoFileTwotone } from './icons/google/video_file/twotone.svg';
 export { default as googleVideoFileTwotoneThin } from './icons/google/video_file/twotone_thin.svg';
 export { default as googleVideoLabelTwotone } from './icons/google/video_label/twotone.svg';
@@ -2685,6 +2688,7 @@ export { default as googleViewCarouselTwotoneThin } from './icons/google/view_ca
 export { default as googleViewColumnTwotone } from './icons/google/view_column/twotone.svg';
 export { default as googleViewColumnTwotoneThin } from './icons/google/view_column/twotone_thin.svg';
 export { default as googleViewComfyTwotone } from './icons/google/view_comfy/twotone.svg';
+export { default as googleViewComfyTwotoneThin } from './icons/google/view_comfy/twotone_thin.svg';
 export { default as googleViewComfyAltTwotone } from './icons/google/view_comfy_alt/twotone.svg';
 export { default as googleViewComfyAltTwotoneThin } from './icons/google/view_comfy_alt/twotone_thin.svg';
 export { default as googleViewCompactTwotone } from './icons/google/view_compact/twotone.svg';

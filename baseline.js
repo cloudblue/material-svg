@@ -697,6 +697,8 @@ export { default as googleDevicesBaseline } from './icons/google/devices/baselin
 export { default as googleDevicesFoldBaseline } from './icons/google/devices_fold/baseline.svg';
 export { default as googleDevicesFoldBaselineThin } from './icons/google/devices_fold/baseline_thin.svg';
 export { default as googleDevicesOtherBaseline } from './icons/google/devices_other/baseline.svg';
+export { default as googleDewPointBaseline } from './icons/google/dew_point/baseline.svg';
+export { default as googleDewPointBaselineThin } from './icons/google/dew_point/baseline_thin.svg';
 export { default as googleDialerSipBaseline } from './icons/google/dialer_sip/baseline.svg';
 export { default as googleDialpadBaseline } from './icons/google/dialpad/baseline.svg';
 export { default as googleDiamondBaseline } from './icons/google/diamond/baseline.svg';
@@ -808,6 +810,8 @@ export { default as googleEditBaseline } from './icons/google/edit/baseline.svg'
 export { default as googleEditAttributesBaseline } from './icons/google/edit_attributes/baseline.svg';
 export { default as googleEditCalendarBaseline } from './icons/google/edit_calendar/baseline.svg';
 export { default as googleEditCalendarBaselineThin } from './icons/google/edit_calendar/baseline_thin.svg';
+export { default as googleEditDocumentBaseline } from './icons/google/edit_document/baseline.svg';
+export { default as googleEditDocumentBaselineThin } from './icons/google/edit_document/baseline_thin.svg';
 export { default as googleEditLocationBaseline } from './icons/google/edit_location/baseline.svg';
 export { default as googleEditLocationAltBaseline } from './icons/google/edit_location_alt/baseline.svg';
 export { default as googleEditLocationAltBaselineThin } from './icons/google/edit_location_alt/baseline_thin.svg';
@@ -818,6 +822,8 @@ export { default as googleEditNotificationsBaselineThin } from './icons/google/e
 export { default as googleEditOffBaseline } from './icons/google/edit_off/baseline.svg';
 export { default as googleEditRoadBaseline } from './icons/google/edit_road/baseline.svg';
 export { default as googleEditRoadBaselineThin } from './icons/google/edit_road/baseline_thin.svg';
+export { default as googleEditSquareBaseline } from './icons/google/edit_square/baseline.svg';
+export { default as googleEditSquareBaselineThin } from './icons/google/edit_square/baseline_thin.svg';
 export { default as googleEggBaseline } from './icons/google/egg/baseline.svg';
 export { default as googleEggBaselineThin } from './icons/google/egg/baseline_thin.svg';
 export { default as googleEggAltBaseline } from './icons/google/egg_alt/baseline.svg';
@@ -956,6 +962,8 @@ export { default as googleFileOpenBaseline } from './icons/google/file_open/base
 export { default as googleFileOpenBaselineThin } from './icons/google/file_open/baseline_thin.svg';
 export { default as googleFilePresentBaseline } from './icons/google/file_present/baseline.svg';
 export { default as googleFileUploadBaseline } from './icons/google/file_upload/baseline.svg';
+export { default as googleFileUploadOffBaseline } from './icons/google/file_upload_off/baseline.svg';
+export { default as googleFileUploadOffBaselineThin } from './icons/google/file_upload_off/baseline_thin.svg';
 export { default as googleFilterBaseline } from './icons/google/filter/baseline.svg';
 export { default as googleFilter1Baseline } from './icons/google/filter_1/baseline.svg';
 export { default as googleFilter2Baseline } from './icons/google/filter_2/baseline.svg';
@@ -2356,6 +2364,7 @@ export { default as googleSquareFootBaselineThin } from './icons/google/square_f
 export { default as googleSsidChartBaseline } from './icons/google/ssid_chart/baseline.svg';
 export { default as googleSsidChartBaselineThin } from './icons/google/ssid_chart/baseline_thin.svg';
 export { default as googleStackedBarChartBaseline } from './icons/google/stacked_bar_chart/baseline.svg';
+export { default as googleStackedBarChartBaselineThin } from './icons/google/stacked_bar_chart/baseline_thin.svg';
 export { default as googleStackedLineChartBaseline } from './icons/google/stacked_line_chart/baseline.svg';
 export { default as googleStadiumBaseline } from './icons/google/stadium/baseline.svg';
 export { default as googleStadiumBaselineThin } from './icons/google/stadium/baseline_thin.svg';
@@ -2649,6 +2658,8 @@ export { default as googleVibrationBaseline } from './icons/google/vibration/bas
 export { default as googleVideoCallBaseline } from './icons/google/video_call/baseline.svg';
 export { default as googleVideoCameraBackBaseline } from './icons/google/video_camera_back/baseline.svg';
 export { default as googleVideoCameraFrontBaseline } from './icons/google/video_camera_front/baseline.svg';
+export { default as googleVideoChatBaseline } from './icons/google/video_chat/baseline.svg';
+export { default as googleVideoChatBaselineThin } from './icons/google/video_chat/baseline_thin.svg';
 export { default as googleVideoFileBaseline } from './icons/google/video_file/baseline.svg';
 export { default as googleVideoFileBaselineThin } from './icons/google/video_file/baseline_thin.svg';
 export { default as googleVideoLabelBaseline } from './icons/google/video_label/baseline.svg';
@@ -2670,6 +2681,7 @@ export { default as googleViewCarouselBaselineThin } from './icons/google/view_c
 export { default as googleViewColumnBaseline } from './icons/google/view_column/baseline.svg';
 export { default as googleViewColumnBaselineThin } from './icons/google/view_column/baseline_thin.svg';
 export { default as googleViewComfyBaseline } from './icons/google/view_comfy/baseline.svg';
+export { default as googleViewComfyBaselineThin } from './icons/google/view_comfy/baseline_thin.svg';
 export { default as googleViewComfyAltBaseline } from './icons/google/view_comfy_alt/baseline.svg';
 export { default as googleViewComfyAltBaselineThin } from './icons/google/view_comfy_alt/baseline_thin.svg';
 export { default as googleViewCompactBaseline } from './icons/google/view_compact/baseline.svg';

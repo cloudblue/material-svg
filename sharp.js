@@ -2339,6 +2339,7 @@ export { default as googleSquareFootSharpThin } from './icons/google/square_foot
 export { default as googleSsidChartSharp } from './icons/google/ssid_chart/sharp.svg';
 export { default as googleSsidChartSharpThin } from './icons/google/ssid_chart/sharp_thin.svg';
 export { default as googleStackedBarChartSharp } from './icons/google/stacked_bar_chart/sharp.svg';
+export { default as googleStackedBarChartSharpThin } from './icons/google/stacked_bar_chart/sharp_thin.svg';
 export { default as googleStackedLineChartSharp } from './icons/google/stacked_line_chart/sharp.svg';
 export { default as googleStadiumSharp } from './icons/google/stadium/sharp.svg';
 export { default as googleStadiumSharpThin } from './icons/google/stadium/sharp_thin.svg';
@@ -2628,6 +2629,8 @@ export { default as googleVibrationSharp } from './icons/google/vibration/sharp.
 export { default as googleVideoCallSharp } from './icons/google/video_call/sharp.svg';
 export { default as googleVideoCameraBackSharp } from './icons/google/video_camera_back/sharp.svg';
 export { default as googleVideoCameraFrontSharp } from './icons/google/video_camera_front/sharp.svg';
+export { default as googleVideoChatSharp } from './icons/google/video_chat/sharp.svg';
+export { default as googleVideoChatSharpThin } from './icons/google/video_chat/sharp_thin.svg';
 export { default as googleVideoFileSharp } from './icons/google/video_file/sharp.svg';
 export { default as googleVideoFileSharpThin } from './icons/google/video_file/sharp_thin.svg';
 export { default as googleVideoLabelSharp } from './icons/google/video_label/sharp.svg';
@@ -2649,6 +2652,7 @@ export { default as googleViewCarouselSharpThin } from './icons/google/view_caro
 export { default as googleViewColumnSharp } from './icons/google/view_column/sharp.svg';
 export { default as googleViewColumnSharpThin } from './icons/google/view_column/sharp_thin.svg';
 export { default as googleViewComfySharp } from './icons/google/view_comfy/sharp.svg';
+export { default as googleViewComfySharpThin } from './icons/google/view_comfy/sharp_thin.svg';
 export { default as googleViewComfyAltSharp } from './icons/google/view_comfy_alt/sharp.svg';
 export { default as googleViewComfyAltSharpThin } from './icons/google/view_comfy_alt/sharp_thin.svg';
 export { default as googleViewCompactSharp } from './icons/google/view_compact/sharp.svg';

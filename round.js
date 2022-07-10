@@ -2339,6 +2339,7 @@ export { default as googleSquareFootRoundThin } from './icons/google/square_foot
 export { default as googleSsidChartRound } from './icons/google/ssid_chart/round.svg';
 export { default as googleSsidChartRoundThin } from './icons/google/ssid_chart/round_thin.svg';
 export { default as googleStackedBarChartRound } from './icons/google/stacked_bar_chart/round.svg';
+export { default as googleStackedBarChartRoundThin } from './icons/google/stacked_bar_chart/round_thin.svg';
 export { default as googleStackedLineChartRound } from './icons/google/stacked_line_chart/round.svg';
 export { default as googleStadiumRound } from './icons/google/stadium/round.svg';
 export { default as googleStadiumRoundThin } from './icons/google/stadium/round_thin.svg';
@@ -2628,6 +2629,8 @@ export { default as googleVibrationRound } from './icons/google/vibration/round.
 export { default as googleVideoCallRound } from './icons/google/video_call/round.svg';
 export { default as googleVideoCameraBackRound } from './icons/google/video_camera_back/round.svg';
 export { default as googleVideoCameraFrontRound } from './icons/google/video_camera_front/round.svg';
+export { default as googleVideoChatRound } from './icons/google/video_chat/round.svg';
+export { default as googleVideoChatRoundThin } from './icons/google/video_chat/round_thin.svg';
 export { default as googleVideoFileRound } from './icons/google/video_file/round.svg';
 export { default as googleVideoFileRoundThin } from './icons/google/video_file/round_thin.svg';
 export { default as googleVideoLabelRound } from './icons/google/video_label/round.svg';
@@ -2649,6 +2652,7 @@ export { default as googleViewCarouselRoundThin } from './icons/google/view_caro
 export { default as googleViewColumnRound } from './icons/google/view_column/round.svg';
 export { default as googleViewColumnRoundThin } from './icons/google/view_column/round_thin.svg';
 export { default as googleViewComfyRound } from './icons/google/view_comfy/round.svg';
+export { default as googleViewComfyRoundThin } from './icons/google/view_comfy/round_thin.svg';
 export { default as googleViewComfyAltRound } from './icons/google/view_comfy_alt/round.svg';
 export { default as googleViewComfyAltRoundThin } from './icons/google/view_comfy_alt/round_thin.svg';
 export { default as googleViewCompactRound } from './icons/google/view_compact/round.svg';
