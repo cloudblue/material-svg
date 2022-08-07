@@ -273,6 +273,7 @@ export { default as googleBalconySharp } from './icons/google/balcony/sharp.svg'
 export { default as googleBalconySharpThin } from './icons/google/balcony/sharp_thin.svg';
 export { default as googleBallotSharp } from './icons/google/ballot/sharp.svg';
 export { default as googleBarChartSharp } from './icons/google/bar_chart/sharp.svg';
+export { default as googleBarChartSharpThin } from './icons/google/bar_chart/sharp_thin.svg';
 export { default as googleBatchPredictionSharp } from './icons/google/batch_prediction/sharp.svg';
 export { default as googleBatchPredictionSharpThin } from './icons/google/batch_prediction/sharp_thin.svg';
 export { default as googleBathroomSharp } from './icons/google/bathroom/sharp.svg';
@@ -591,9 +592,13 @@ export { default as googleCrisisAlertSharp } from './icons/google/crisis_alert/s
 export { default as googleCrisisAlertSharpThin } from './icons/google/crisis_alert/sharp_thin.svg';
 export { default as googleCropSharp } from './icons/google/crop/sharp.svg';
 export { default as googleCrop169Sharp } from './icons/google/crop_16_9/sharp.svg';
+export { default as googleCrop169SharpThin } from './icons/google/crop_16_9/sharp_thin.svg';
 export { default as googleCrop32Sharp } from './icons/google/crop_3_2/sharp.svg';
+export { default as googleCrop32SharpThin } from './icons/google/crop_3_2/sharp_thin.svg';
 export { default as googleCrop54Sharp } from './icons/google/crop_5_4/sharp.svg';
+export { default as googleCrop54SharpThin } from './icons/google/crop_5_4/sharp_thin.svg';
 export { default as googleCrop75Sharp } from './icons/google/crop_7_5/sharp.svg';
+export { default as googleCrop75SharpThin } from './icons/google/crop_7_5/sharp_thin.svg';
 export { default as googleCropDinSharp } from './icons/google/crop_din/sharp.svg';
 export { default as googleCropFreeSharp } from './icons/google/crop_free/sharp.svg';
 export { default as googleCropLandscapeSharp } from './icons/google/crop_landscape/sharp.svg';
@@ -2656,6 +2661,7 @@ export { default as googleViewComfySharpThin } from './icons/google/view_comfy/s
 export { default as googleViewComfyAltSharp } from './icons/google/view_comfy_alt/sharp.svg';
 export { default as googleViewComfyAltSharpThin } from './icons/google/view_comfy_alt/sharp_thin.svg';
 export { default as googleViewCompactSharp } from './icons/google/view_compact/sharp.svg';
+export { default as googleViewCompactSharpThin } from './icons/google/view_compact/sharp_thin.svg';
 export { default as googleViewCompactAltSharp } from './icons/google/view_compact_alt/sharp.svg';
 export { default as googleViewCompactAltSharpThin } from './icons/google/view_compact_alt/sharp_thin.svg';
 export { default as googleViewCozySharp } from './icons/google/view_cozy/sharp.svg';
@@ -2778,6 +2784,7 @@ export { default as googleWifiTetheringOffSharp } from './icons/google/wifi_teth
 export { default as googleWindPowerSharp } from './icons/google/wind_power/sharp.svg';
 export { default as googleWindPowerSharpThin } from './icons/google/wind_power/sharp_thin.svg';
 export { default as googleWindowSharp } from './icons/google/window/sharp.svg';
+export { default as googleWindowSharpThin } from './icons/google/window/sharp_thin.svg';
 export { default as googleWineBarSharp } from './icons/google/wine_bar/sharp.svg';
 export { default as googleWomanSharp } from './icons/google/woman/sharp.svg';
 export { default as googleWomanSharpThin } from './icons/google/woman/sharp_thin.svg';

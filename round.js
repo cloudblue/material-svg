@@ -273,6 +273,7 @@ export { default as googleBalconyRound } from './icons/google/balcony/round.svg'
 export { default as googleBalconyRoundThin } from './icons/google/balcony/round_thin.svg';
 export { default as googleBallotRound } from './icons/google/ballot/round.svg';
 export { default as googleBarChartRound } from './icons/google/bar_chart/round.svg';
+export { default as googleBarChartRoundThin } from './icons/google/bar_chart/round_thin.svg';
 export { default as googleBatchPredictionRound } from './icons/google/batch_prediction/round.svg';
 export { default as googleBatchPredictionRoundThin } from './icons/google/batch_prediction/round_thin.svg';
 export { default as googleBathroomRound } from './icons/google/bathroom/round.svg';
@@ -591,9 +592,13 @@ export { default as googleCrisisAlertRound } from './icons/google/crisis_alert/r
 export { default as googleCrisisAlertRoundThin } from './icons/google/crisis_alert/round_thin.svg';
 export { default as googleCropRound } from './icons/google/crop/round.svg';
 export { default as googleCrop169Round } from './icons/google/crop_16_9/round.svg';
+export { default as googleCrop169RoundThin } from './icons/google/crop_16_9/round_thin.svg';
 export { default as googleCrop32Round } from './icons/google/crop_3_2/round.svg';
+export { default as googleCrop32RoundThin } from './icons/google/crop_3_2/round_thin.svg';
 export { default as googleCrop54Round } from './icons/google/crop_5_4/round.svg';
+export { default as googleCrop54RoundThin } from './icons/google/crop_5_4/round_thin.svg';
 export { default as googleCrop75Round } from './icons/google/crop_7_5/round.svg';
+export { default as googleCrop75RoundThin } from './icons/google/crop_7_5/round_thin.svg';
 export { default as googleCropDinRound } from './icons/google/crop_din/round.svg';
 export { default as googleCropFreeRound } from './icons/google/crop_free/round.svg';
 export { default as googleCropLandscapeRound } from './icons/google/crop_landscape/round.svg';
@@ -2656,6 +2661,7 @@ export { default as googleViewComfyRoundThin } from './icons/google/view_comfy/r
 export { default as googleViewComfyAltRound } from './icons/google/view_comfy_alt/round.svg';
 export { default as googleViewComfyAltRoundThin } from './icons/google/view_comfy_alt/round_thin.svg';
 export { default as googleViewCompactRound } from './icons/google/view_compact/round.svg';
+export { default as googleViewCompactRoundThin } from './icons/google/view_compact/round_thin.svg';
 export { default as googleViewCompactAltRound } from './icons/google/view_compact_alt/round.svg';
 export { default as googleViewCompactAltRoundThin } from './icons/google/view_compact_alt/round_thin.svg';
 export { default as googleViewCozyRound } from './icons/google/view_cozy/round.svg';
@@ -2778,6 +2784,7 @@ export { default as googleWifiTetheringOffRound } from './icons/google/wifi_teth
 export { default as googleWindPowerRound } from './icons/google/wind_power/round.svg';
 export { default as googleWindPowerRoundThin } from './icons/google/wind_power/round_thin.svg';
 export { default as googleWindowRound } from './icons/google/window/round.svg';
+export { default as googleWindowRoundThin } from './icons/google/window/round_thin.svg';
 export { default as googleWineBarRound } from './icons/google/wine_bar/round.svg';
 export { default as googleWomanRound } from './icons/google/woman/round.svg';
 export { default as googleWomanRoundThin } from './icons/google/woman/round_thin.svg';

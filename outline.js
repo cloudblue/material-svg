@@ -273,6 +273,7 @@ export { default as googleBalconyOutline } from './icons/google/balcony/outline.
 export { default as googleBalconyOutlineThin } from './icons/google/balcony/outline_thin.svg';
 export { default as googleBallotOutline } from './icons/google/ballot/outline.svg';
 export { default as googleBarChartOutline } from './icons/google/bar_chart/outline.svg';
+export { default as googleBarChartOutlineThin } from './icons/google/bar_chart/outline_thin.svg';
 export { default as googleBatchPredictionOutline } from './icons/google/batch_prediction/outline.svg';
 export { default as googleBatchPredictionOutlineThin } from './icons/google/batch_prediction/outline_thin.svg';
 export { default as googleBathroomOutline } from './icons/google/bathroom/outline.svg';
@@ -591,9 +592,13 @@ export { default as googleCrisisAlertOutline } from './icons/google/crisis_alert
 export { default as googleCrisisAlertOutlineThin } from './icons/google/crisis_alert/outline_thin.svg';
 export { default as googleCropOutline } from './icons/google/crop/outline.svg';
 export { default as googleCrop169Outline } from './icons/google/crop_16_9/outline.svg';
+export { default as googleCrop169OutlineThin } from './icons/google/crop_16_9/outline_thin.svg';
 export { default as googleCrop32Outline } from './icons/google/crop_3_2/outline.svg';
+export { default as googleCrop32OutlineThin } from './icons/google/crop_3_2/outline_thin.svg';
 export { default as googleCrop54Outline } from './icons/google/crop_5_4/outline.svg';
+export { default as googleCrop54OutlineThin } from './icons/google/crop_5_4/outline_thin.svg';
 export { default as googleCrop75Outline } from './icons/google/crop_7_5/outline.svg';
+export { default as googleCrop75OutlineThin } from './icons/google/crop_7_5/outline_thin.svg';
 export { default as googleCropDinOutline } from './icons/google/crop_din/outline.svg';
 export { default as googleCropFreeOutline } from './icons/google/crop_free/outline.svg';
 export { default as googleCropLandscapeOutline } from './icons/google/crop_landscape/outline.svg';
@@ -2651,6 +2656,7 @@ export { default as googleViewComfyOutlineThin } from './icons/google/view_comfy
 export { default as googleViewComfyAltOutline } from './icons/google/view_comfy_alt/outline.svg';
 export { default as googleViewComfyAltOutlineThin } from './icons/google/view_comfy_alt/outline_thin.svg';
 export { default as googleViewCompactOutline } from './icons/google/view_compact/outline.svg';
+export { default as googleViewCompactOutlineThin } from './icons/google/view_compact/outline_thin.svg';
 export { default as googleViewCompactAltOutline } from './icons/google/view_compact_alt/outline.svg';
 export { default as googleViewCompactAltOutlineThin } from './icons/google/view_compact_alt/outline_thin.svg';
 export { default as googleViewCozyOutline } from './icons/google/view_cozy/outline.svg';
@@ -2773,6 +2779,7 @@ export { default as googleWifiTetheringOffOutline } from './icons/google/wifi_te
 export { default as googleWindPowerOutline } from './icons/google/wind_power/outline.svg';
 export { default as googleWindPowerOutlineThin } from './icons/google/wind_power/outline_thin.svg';
 export { default as googleWindowOutline } from './icons/google/window/outline.svg';
+export { default as googleWindowOutlineThin } from './icons/google/window/outline_thin.svg';
 export { default as googleWineBarOutline } from './icons/google/wine_bar/outline.svg';
 export { default as googleWomanOutline } from './icons/google/woman/outline.svg';
 export { default as googleWomanOutlineThin } from './icons/google/woman/outline_thin.svg';
