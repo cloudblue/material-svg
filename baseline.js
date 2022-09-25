@@ -216,6 +216,8 @@ export { default as googleArticleBaseline } from './icons/google/article/baselin
 export { default as googleAspectRatioBaseline } from './icons/google/aspect_ratio/baseline.svg';
 export { default as googleAssessmentBaseline } from './icons/google/assessment/baseline.svg';
 export { default as googleAssignmentBaseline } from './icons/google/assignment/baseline.svg';
+export { default as googleAssignmentAddBaseline } from './icons/google/assignment_add/baseline.svg';
+export { default as googleAssignmentAddBaselineThin } from './icons/google/assignment_add/baseline_thin.svg';
 export { default as googleAssignmentIndBaseline } from './icons/google/assignment_ind/baseline.svg';
 export { default as googleAssignmentLateBaseline } from './icons/google/assignment_late/baseline.svg';
 export { default as googleAssignmentReturnBaseline } from './icons/google/assignment_return/baseline.svg';
@@ -1089,6 +1091,8 @@ export { default as googleFormatIndentIncreaseBaseline } from './icons/google/fo
 export { default as googleFormatItalicBaseline } from './icons/google/format_italic/baseline.svg';
 export { default as googleFormatLineSpacingBaseline } from './icons/google/format_line_spacing/baseline.svg';
 export { default as googleFormatListBulletedBaseline } from './icons/google/format_list_bulleted/baseline.svg';
+export { default as googleFormatListBulletedAddBaseline } from './icons/google/format_list_bulleted_add/baseline.svg';
+export { default as googleFormatListBulletedAddBaselineThin } from './icons/google/format_list_bulleted_add/baseline_thin.svg';
 export { default as googleFormatListNumberedBaseline } from './icons/google/format_list_numbered/baseline.svg';
 export { default as googleFormatListNumberedRtlBaseline } from './icons/google/format_list_numbered_rtl/baseline.svg';
 export { default as googleFormatOverlineBaseline } from './icons/google/format_overline/baseline.svg';
@@ -1626,6 +1630,8 @@ export { default as googleMoveUpBaseline } from './icons/google/move_up/baseline
 export { default as googleMoveUpBaselineThin } from './icons/google/move_up/baseline_thin.svg';
 export { default as googleMovieBaseline } from './icons/google/movie/baseline.svg';
 export { default as googleMovieCreationBaseline } from './icons/google/movie_creation/baseline.svg';
+export { default as googleMovieEditBaseline } from './icons/google/movie_edit/baseline.svg';
+export { default as googleMovieEditBaselineThin } from './icons/google/movie_edit/baseline_thin.svg';
 export { default as googleMovieFilterBaseline } from './icons/google/movie_filter/baseline.svg';
 export { default as googleMovingBaseline } from './icons/google/moving/baseline.svg';
 export { default as googleMovingBaselineThin } from './icons/google/moving/baseline_thin.svg';
@@ -2014,6 +2020,8 @@ export { default as googleReadMoreBaseline } from './icons/google/read_more/base
 export { default as googleReadMoreBaselineThin } from './icons/google/read_more/baseline_thin.svg';
 export { default as googleRealEstateAgentBaseline } from './icons/google/real_estate_agent/baseline.svg';
 export { default as googleRealEstateAgentBaselineThin } from './icons/google/real_estate_agent/baseline_thin.svg';
+export { default as googleRebaseEditBaseline } from './icons/google/rebase_edit/baseline.svg';
+export { default as googleRebaseEditBaselineThin } from './icons/google/rebase_edit/baseline_thin.svg';
 export { default as googleReceiptBaseline } from './icons/google/receipt/baseline.svg';
 export { default as googleReceiptLongBaseline } from './icons/google/receipt_long/baseline.svg';
 export { default as googleRecentActorsBaseline } from './icons/google/recent_actors/baseline.svg';
