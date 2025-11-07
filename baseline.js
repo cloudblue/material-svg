@@ -1,3 +1,4 @@
+export { default as connectUninitializedBaseline } from './icons/connect/uninitialized/baseline.svg';
 export { default as google10kBaseline } from './icons/google/10k/baseline.svg';
 export { default as google10mpBaseline } from './icons/google/10mp/baseline.svg';
 export { default as google11mpBaseline } from './icons/google/11mp/baseline.svg';
