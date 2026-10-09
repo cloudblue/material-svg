@@ -12,21 +12,24 @@ jobs:
     if: github.ref == 'refs/heads/main'
     name: Push changes & publish NPM package
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write # npm trusted publishing (OIDC)
     steps:
       - name: Check out this repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
 
-      - uses: actions/github-script@v4
-        name: Get version from package.json
-        id: package-json
+      - uses: actions/setup-node@v7
         with:
-          script: |-
-            const fs = require('fs');
+          node-version: '24'
+          registry-url: 'https://registry.npmjs.org'
+          package-manager-cache: false
 
-            const packageJson = JSON.parse(fs.readFileSync('./package.json'));
-            core.setOutput('version', packageJson.version);
+      - name: Get version from package.json
+        id: package-json
+        run: echo "version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/github-script@v4
+      - uses: actions/github-script@v9
         name: Generate re-exports
         with:
           script: |-
@@ -80,13 +83,17 @@ jobs:
           git commit -m "Generate exports for v${{ steps.package-json.outputs.version }}" || true
           git push --force origin main
 
-          git tag "${{ steps.package-json.outputs.version }}"
-          git push --force origin "${{ steps.package-json.outputs.version }}"
-      
-      - name: Publish NPM package
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          access: "public"
-          dry-run: false
-          check-version: true
+      - name: Publish NPM package and tag the release
+        env:
+          VERSION: ${{ steps.package-json.outputs.version }}
+        run: |-
+          # Only versions that are not on npm yet get published and tagged.
+          if npm view "@cloudblueconnect/material-svg@$VERSION" version > /dev/null 2>&1; then
+            echo "v$VERSION is already published to npm"
+            exit 0
+          fi
+
+          npm publish --access public
+
+          git tag "$VERSION"
+          git push origin "$VERSION"
