@@ -1,10 +1,11 @@
 {
   "name": "@cloudblueconnect/material-svg",
-  "version": "1.0.46",
+  "version": "1.1.0",
   "description": "Google's Material Design SVG icons",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "node scripts/generate-js.mjs"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   "sideEffects": false,
   "files": [
     "icons",
-    "*.js"
+    "*.js",
+    "js"
   ]
 }

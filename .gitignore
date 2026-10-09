@@ -2,3 +2,4 @@ node_modules/
 .vscode/
 .idea/
 CLAUDE.local.md
+js/
